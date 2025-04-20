@@ -1,0 +1,3911 @@
+{
+    "/* --- Note: (!) = reference/doc not found or found by own research; *: wildcard ; (?) = maybe, need ref or doc */" : {},
+
+    "UniversalLabels": {
+
+        "060e2b34040101..0d01020110......" : {
+            "name" : "Operational Pattern - Specialized Pattern - OP Atom *"
+        },
+        "060e2b34040101010d01020110000000": {
+            "name" : "Operational Pattern - Specialized Pattern - OP Atom - Interop"
+        },
+        "060e2b34040101020d01020110000000" : {
+            "name" : "Operational Pattern - Specialized Pattern - OP Atom - SMPTE"
+        },
+
+        "060e2b34040101..0d01020101010100" : {
+            "name" : "Operational Pattern - OP-1a *",
+            "resource" : "MXFlib",
+            "type" : "label"
+        },
+		"060e2b34040101010d01020101010100" : {
+			"name" : "Operational Pattern - OP-1a"
+		},
+
+        "------------ Base / Common UL -------------": {},
+
+        "060e2b340101...................." : {
+            "name" : "Dictionaries - Metadata Dictionary *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340102...................." : {
+            "name" : "Dictionaries - Essence Dictionary *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340103...................." : {
+            "name" : "Dictionaries - Control Dictionary *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340104...................." : {
+            "name" : "Dictionaries - Types Dictionary *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340201...................." : {
+            "name" : "Groups (Sets/Packs) - Universal Set *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9",
+			"parser" : "klv"
+        },
+        "060e2b340202...................." : {
+            "name" : "Groups (Sets/Packs) - Global Set *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9",
+			"parser" : "klv"
+        },
+        "060e2b340203...................." : {
+            "name" : "Groups (Sets/Packs) - Local Set *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9",
+			"parser" : "klv"
+        },
+        "060e2b340213...................." : {
+            "name" : "Groups (Sets/Packs) - Local Set *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9",
+			"parser" : "klv"
+        },
+        "060e2b340253...................." : {
+            "name" : "Groups (Sets/Packs) - Local Set *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9",
+			"parser" : "klv"
+        },
+        "060e2b340204...................." : {
+            "name" : "Groups (Sets/Packs) - Variable-Length Pack *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340205...................." : {
+            "name" : "Groups (Sets/Packs) - Defined-Length Pack *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340301...................." : {
+            "name" : "Simple Wrapper & Container *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b340302...................." : {
+            "name" : "Complex Wrapper & Container *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b3404......................" : {
+            "name" : "SMPTE Labels *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+        "060e2b3405......................" : {
+            "name" : "Registered Private Information *",
+            "resource" : "SMPTE.ST.0336M-2007 - Data Encoding Protocol Using Key-Length-Value (KLV) - page 9"
+        },
+
+
+        "------------ Abstract Structural Metadata Groups -------------": {},
+
+        "060e2b3402..01..0d01010101....00" : {
+            "name" : "Structural Metadata Sets *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 72",
+			"parser": "klv"
+        },
+        "060e2b34027f01..0d01010101....00" : {
+            "name" : "Abstract Structural Metadata Groups *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101010100" : {
+            "name" : "Abstract Structural Metadata Groups - Interchance Object",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101013400" : {
+            "name" : "Abstract Structural Metadata Groups - Generic Package",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101012400" : {
+            "name" : "Abstract Structural Metadata Groups - Generic Descriptor",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101015900" : {
+            "name" : "Abstract Structural Metadata Groups - Sub-Descriptor",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101013800" : {
+            "name" : "Abstract Structural Metadata Groups - Generic Track",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101010200" : {
+            "name" : "Abstract Structural Metadata Groups - Structural Component",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101010300" : {
+            "name" : "Abstract Structural Metadata Groups - Segment",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101010600" : {
+            "name" : "Abstract Structural Metadata Groups - Event",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101010800" : {
+            "name" : "Abstract Structural Metadata Groups - Comment Marker",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101016600" : {
+            "name" : "Abstract Structural Metadata Groups - Application Object",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+        "060e2b34027f01..0d01010101012500" : {
+            "name" : "Abstract Structural Metadata Groups - File Descriptor",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 74"
+        },
+
+
+        "060e2b34040101..0d010501........" : {
+            "name" : "Application Metadata Schemes - Generic Universal Label *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 76"
+        },
+        "060e2b34040101..0d010401........" : {
+            "name" : "Descriptive Metadata Schemes - Generic Universal Label *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 83"
+        },
+        "060e2b3402..01..0d010401........" : {
+            "name" : "Descriptive Metadata Schemes - Generic Key *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 83"
+        },
+
+
+        "060e2b34027f01..0d010401........" : {
+            "name" : "Abstract Descriptive Metadata Groups *",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 84"
+        },
+        "060e2b34027f01..0d010401000000.." : {
+            "name" : "Abstract Descriptive Metadata Groups - Descriptive Framework",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 84"
+        },
+        "060e2b34027f01..0d010400000000.." : {
+            "name" : "Abstract Descriptive Metadata Groups - Descriptive Object",
+            "resource" : "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 84"
+        },
+
+
+        "060e2b34025301010d010401........" : {
+            "name" : "Descriptive Metadata Schemes - Generic Key *",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+        "060e2b34025301010d0104010101...." : {
+            "name" : "Descriptive Metadata Schemes - Generic Key - Scheme-1, Version 1 (Experimental & Deprecated)",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+        "060e2b34025301010d0104010102...." : {
+            "name" : "Descriptive Metadata Schemes - Generic Key - Scheme-1, Version 2",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+        "060e2b34025301010d010401010201.." : {
+            "name" : "Descriptive Metadata Schemes - Production Framework",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+        "060e2b34025301010d010401010202.." : {
+            "name" : "Descriptive Metadata Schemes - Clip Framework",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+        "060e2b34025301010d010401010203.." : {
+            "name" : "Descriptive Metadata Schemes - Scene Framework",
+            "resource" : "SMPTE 377M - MXF - File Format Specification - page 45, SMPTE 380M - MXF - Descriptive Metadata Scheme1 - page 5"
+        },
+
+
+        "060e2b3402..01010d01030104......" : {
+            "name" : "Content Package Compatible System Item",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 15, SMPTE.ST.0379M - MXF - MXF Generic Container - page 8"
+        },
+        "060e2b3402..01010d01030114......" : {
+            "name" : "Generic Container Compatible System Item",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 15, SMPTE.ST.0379M - MXF - MXF Generic Container - page 8"
+        },
+
+		"060e2b34020501010d0103010401...." : {
+			"name" : "SDTI KLV ?*"
+		},
+		"060e2b34024301010d0103010401...." : {
+			"name" : "SDTI KLV ?*"
+		},
+		"060e2b34026301010d0103010401...." : {
+			"name" : "SDTI KLV ?*"
+		},
+
+
+        "060e2b34010201010d01030105......" : {
+            "name" : "SDTI-Content Package Picture (SMPTE 326M) *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030106......" : {
+            "name" : "SDTI-Content Package Sound (SMPTE 326M) *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030107......" : {
+            "name" : "SDTI-Content Package Data (SMPTE 326M) *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030115......" : {
+            "name" : "Generic Container - Picture *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030116......" : {
+            "name" : "Generic Container - Sound *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030117......" : {
+            "name" : "Generic Container - Data *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+        "060e2b34010201010d01030118......" : {
+            "name" : "Generic Container - Compound *",
+            "resource": "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 17"
+        },
+
+
+        "060e2b34040101..0d01030101......" : {
+            "name" : "Experimental MXF Generic Container",
+            "resource" : "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 19"
+        },
+        "060e2b34040101..0d01030102......" : {
+            "name" : "MXF Generic Container",
+            "resource" : "SMPTE.ST.0379-2-2010 - TV - MXF - MXF Constrained Generic Container - page 19"
+        },
+
+
+
+        "-------------- Audio -----------" : {},
+
+        "060e2b3402..01..0d01030116..01.." : {
+            "name" : "Generic Container Sound Item - Wave Frame-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+        "060e2b3402..01..0d01030116..02.." : {
+            "name" : "Generic Container Sound Item - Wave Clip-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+        "060e2b3402..01..0d01030116..03.." : {
+            "name" : "Generic Container Sound Item - AES Frame-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+        "060e2b3402..01..0d01030116..04.." : {
+            "name" : "Generic Container Sound Item - AES Clip-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+        "060e2b3402..01..0d01030116..0b.." : {
+            "name" : "Generic Container Sound Item - Wave Custom-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+        "060e2b3402..01..0d01030116..0c.." : {
+            "name" : "Generic Container Sound Item - AES Custom-Wrapped Element (Data Group)",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 10"
+        },
+
+
+        "060e2b3401..01..0d01030116......" : {
+            "name" : "Sound Essence - Gerenic Container Sound Item (Data Item, Raw) *",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..01.." : {
+            "name" : "Sound Essence - Wave Frame-Wrapped Element - Data Item, Raw *",
+            "parser": "wave_frame_wrapped_essence",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116010100" : {
+            "name" : "Sound Essence - Wave Frame-Wrapped Element - Data Item, Raw",
+            "parser": "wave_frame_wrapped_essence",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116010101" : {
+            "name" : "Sound Essence - Wave Frame-Wrapped Element - Data Item, Raw",
+            "parser": "wave_frame_wrapped_essence",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..02.." : {
+            "name" : "Sound Essence - Wave Clip-Wrapped Element - Data Item, Raw *",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..03.." : {
+            "name" : "Sound Essence - AES Frame-Wrapped Element - Data Item, Raw",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..04.." : {
+            "name" : "Sound Essence - AES Clip-Wrapped Element - Data Item, Raw",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..0b.." : {
+            "name" : "Sound Essence - Wave Custom-Wrapped Element - Data Item, Raw",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030116..0c.." : {
+            "name" : "Sound Essence - AES Custom-Wrapped Element - Data Item, Raw",
+            "resource" : "SMPTE.ST.0382M-2007-WaveAudio - Page 10 - Table.1"
+        },
+        "060e2b34010201010d01030102060100" : {
+            "name" : "Sound Essence - AES-BWF - Wave Frame-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+        "060e2b34010201010d01030102060200" : {
+            "name" : "Sound Essence - AES-BWF - Wave Clip-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+        "060e2b34010201010d01030102060300" : {
+            "name" : "Sound Essence - AES-BWF - AES Frame-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+        "060e2b34010201010d01030102060400" : {
+            "name" : "Sound Essence - AES-BWF - AES Clip-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+        "060e2b34010201010d01030102060800" : {
+            "name" : "Sound Essence - AES-BWF - Wave Custom-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+        "060e2b34010201010d01030102060900" : {
+            "name" : "Sound Essence - AES-BWF - AES Custom-Wrapped Element - Data Item",
+            "resource" : "SMPTE 382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 19"
+        },
+
+        "060e2b34025301010d01010101014800" : {
+            "name" : "Wave Audio Essence Descriptor",
+            "resource" : "SMPTE.ST.0382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 21+22",
+            "parser": "klv"
+        },
+        "060e2b34025301010d01010101014700" : {
+            "name" : "AES3 Audio Essence Descriptor",
+            "resource" : "SMPTE.ST.0382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 23",
+            "parser": "klv"
+        },
+        "060e2b34025301010d01010101015000" : {
+            "name" : "Wave Audio Physical Descriptor",
+            "resource" : "SMPTE.ST.0382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 24",
+            "parser": "klv"
+        },
+        "060e2b34025301010d01010101014f00" : {
+            "name" : "Wave Audio - Unknown Chunk Set",
+            "resource" : "SMPTE.ST.0382M-2007 - MXF - Mapping AES3 and Broadcast Wave Audio into the MXF Generic Container - Page 24",
+            "parser": "klv"
+        },
+        "060e2b34010101..0402020101000000" : {
+            "name" : "Sound Essence Coding not present",
+            "resource" : "SMPTE 382M-2007 - Page 13"
+        },
+        "060e2b34040101010d01030102060100" : {
+            "name" : "Broadcast Wave audio - frame-based mapping"
+        },
+        "060e2b34040101010d01030102060200" : {
+            "name" : "Broadcast Wave audio - clip-based mapping"
+        },
+
+
+        "060e2b34025301010d01010101016a00" : {
+            "name" : "Multichannel Audio (MCA) Label Sub-Descriptor",
+            "resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 8",
+			"parser": "klv"
+        },
+        "060e2b34025301010d01010101016b00" : {
+            "name" : "Multichannel Audio (MCA) Channel Label Sub-Descriptor",
+            "resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 8",
+			"parser": "klv"
+        },
+        "060e2b34025301010d01010101016c00" : {
+            "name" : "Multichannel Audio (MCA) Soundfield Group Label Sub-Descriptor",
+            "resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 8",
+			"parser": "klv"
+        },
+        "060e2b34025301010d01010101016d00" : {
+            "name" : "Multichannel Audio (MCA) Group Of Soundfield Groups Label Sub-Descriptor",
+            "resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 8"
+        },
+		"060e2b340101010e0103070101000000" : {
+			"name" : "Multichannel Audio (MCA) Label Dictionnary ID",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "UL",
+            "length" : "16",
+            "format" : "uuid_ul"
+		},
+		"060e2b340101010e0103070105000000" : {
+			"name" : "Multichannel Audio (MCA) Link ID",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "UUID",
+            "length" : "16",
+            "format" : "uuid"
+		},
+		"060e2b340101010e0103070102000000" : {
+			"name" : "Multichannel Audio (MCA) Tag Symbol",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0103070103000000" : {
+			"name" : "Multichannel Audio (MCA) Tag Name",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0103040a00000000" : {
+			"name" : "Multichannel Audio (MCA) Channel ID",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "format" : "to_int"
+		},
+		"060e2b340101010d0301010203150000" : {
+			"name" : "RFC 5646 Spoken Language",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 9",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf8",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0105100000000000" : {
+			"name" : "Multichannel Audio (MCA) Title",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0105110000000000" : {
+			"name" : "Multichannel Audio (MCA) Title Version",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0105120000000000" : {
+			"name" : "Multichannel Audio (MCA) Title Sub-Version",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0105130000000000" : {
+			"name" : "Multichannel Audio (MCA) Episode",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0104010500000000" : {
+			"name" : "Multichannel Audio (MCA) Partition Kind",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0104010600000000" : {
+			"name" : "Multichannel Audio (MCA) Partition Number",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0302010220000000" : {
+			"name" : "Multichannel Audio (MCA) Audio Content Kind",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+		"060e2b340101010e0302010221000000" : {
+			"name" : "Multichannel Audio (MCA) Audio Element Kind",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 10",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "format" : "to_string"
+		},
+
+
+		"060e2b340101010e0103070106000000" : {
+			"name" : "SoundfieldGroupLinkID",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 12",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "UUID",
+            "length" : "16",
+            "format" : "uuid"
+		},
+		"060e2b340101010e0103070104000000" : {
+			"name" : "GroupOfSoundfieldGroupsLinkID",
+			"resource" : "SMPTE.ST.0377-4 - MXF Multichannel Audio Labeling Framework - Page 13",
+            "type" : "array:UUID",
+            "length" : "8+16*n",
+            "format": "batch_ul"
+		},
+
+
+
+		"060e2b34010101050e09050600000000" : {
+			"name" : "Dolby Atmos Sub-Descriptor - Atmos Version",
+			"resource": "https://registry-page.isdcf.com/uls/",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag"
+		},
+		"060e2b34010101050e09050700000000" : {
+			"name" : "Dolby Atmos Sub-Descriptor - Max Channel Count",
+			"resource": "https://registry-page.isdcf.com/uls/",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag"
+		},
+		"060e2b34010101050e09050800000000": {
+			"name" : "Dolby Atmos Sub-Descriptor - Max Object Count",
+			"resource": "https://registry-page.isdcf.com/uls/",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag"
+		},
+		"060e2b34010101050e09050900000000" : {
+			"name" : "Dolby Atmos Sub-Descriptor - Atmos ID",
+			"resource": "https://registry-page.isdcf.com/uls/",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag"
+		},
+		"060e2b340401010d0302011000000000" : {
+			"name" : "FSK Sync Signal Channel (Atmos stuff)",
+			"resource" : "SMPTE 430-12"
+		},
+
+
+		"060e2b34040101050e09010104010000" : {
+			"name" : "Audio Channel Definitions - Left Wide",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104020000" : {
+			"name" : "Audio Channel Definitions - Right Wide",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104030000" : {
+			"name" : "Audio Channel Definitions - Left Top Wide",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104040000" : {
+			"name" : "Audio Channel Definitions - Right Top Wide",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104050000" : {
+			"name" : "Audio Channel Definitions - Top Side Left",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104060000" : {
+			"name" : "Audio Channel Definitions - Top Side Right",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104070000" : {
+			"name" : "Audio Channel Definitions - Left Top Back",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010104080000" : {
+			"name" : "Audio Channel Definitions - Right Top Back",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105010000" : {
+			"name" : "Soundfield Group Definitions - 5.1.2 (L,R,C,LFE,Ls,Rs,TpSiL,TpSiR)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105020000" : {
+			"name" : "Soundfield Group Definitions - 5.1.4 (L,R,C,LFE,Ls,Rs,Ltf,Rtf,Ltb,Rtb)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105030000" : {
+			"name" : "Soundfield Group Definitions - 7.1.2 (L,R,C,LFE,Lss,Rss,Lrs,Rrs,TpSiL,TpSiR)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105040000" : {
+			"name" : "Soundfield Group Definitions - 7.1.4 (L,R,C,LFE,Lss,Rss,Lrs,Rrs,Ltf,Rtf,Ltb,Rtb)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105050000" : {
+			"name" : "Soundfield Group Definitions - 9.1.2 (L,R,C,LFE,Lss,Rss,Lrs,Rrs,Lw,Rw, TpSiL,TpSiR)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105060000" : {
+			"name" : "Soundfield Group Definitions - 9.1.4 (L,R,C,LFE,Lss,Rss,Lrs,Rrs,Lw,Rw, Ltf,Rtf,Ltb,Rtb)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+		"060e2b34040101050e09010105070000" : {
+			"name" : "Soundfield Group Definitions - 9.1.6 (L,R,C,LFE,Lss,Rss,Lrs,Rrs,Lw,Rw Ltf,Rtf,TpSiL,TpSiR,Ltb,Rtb)",
+			"resource" : "Dolby - Additional Audio Channels and Soundfields for Immersive Audio"
+		},
+
+
+        "------------ TimedText ---------" : {},
+        
+        "060e2b34010201090d01030117010b01" : {
+            "name" : "TimedText Essence (v9)",
+            "parser" : "timedtext_essence",
+            "resource" : "SMPTE.ST.0429-5-2017-TimedTextTrackFile - Page12 - Table A.2"
+        },
+        "060e2b34010201010d01030117010b01" : {
+            "name" : "TimedText Essence (v1)",
+            "parser" : "timedtext_essence",
+            "resource" : "SMPTE.ST.0429-5-2017-TimedTextTrackFile - Page12 - Table A.2"
+        },
+        "060e2b340101010c0d01050901000000" : {
+            "name" : "TimedText Essence - Ancillary Resource",
+            "resource" : "SMPTE.ST.0429-5-2017 - TimedTextTrackFile - Page6 - Table 1, SMPTE 410 - MXF - Generic Stream Partition",
+			"parser": "default"
+        },
+
+        "060e2b340253010a0d01010102130101" : {
+            "name" : "TimedText Essence Container Label",
+            "resource" : "SMPTE.ST.0429-5-2017-TimedTextTrackFile - Page12 - Table A.1"
+        },
+        "060e2b34025301010d01010101016400" : {
+            "name" : "TimedText Essence Descriptor",
+            "resource" : "SMPTE.ST.0429-5-2017-TimedTextTrackFile - Page 13 - Table A.4",
+			"parser": "klv"
+        },
+        "060e2b34025301010d01010101016500" : {
+            "name" : "TimedText Resource Sub-Descriptor",
+            "resource" : "SMPTE.ST.0429-5-2017-TimedTextTrackFile - Page 14 - Table A.7",
+			"parser" : "klv"
+        },
+        "060e2b340101010c0101151200000000" : {
+            "name" : "TimedText - ResourceID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "uuid"
+        },
+        "060e2b340101010c0409050000000000" : {
+            "name" : "TimedText - UCSEncoding",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "to_string"
+        },
+        "060e2b34010101080102010501000000" : {
+            "name" : "TimedText - NamespaceURI",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "to_string"
+        },
+        "060e2b340101010c0101151300000000" : {
+            "name" : "TimedText - AncillaryResourceID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uuid",
+            "length" : "16",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "uuid"
+        },
+        "060e2b34010101070409020100000000" : {
+            "name" : "TimedText - MIMEMediaType",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "string:utf16",
+            "length" : "variable",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "to_string"
+        },
+        " *OFF* 060e2b34010101040103040400000000" : {
+            "name" : "TimedText - EssenceStreamID (duplicate UL with BodySID)",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE.ST.0429-5-2009 - DCP - Timed Text Track File.pdf",
+            "format" : "to_int"
+        },
+		"060e2b340401010a0d01030102130101" : {
+			"name" : "TimedText Essence Container",
+			"resource" : "SMPTE 429-4; DCP-CTP-Changes v12"
+		},
+
+
+
+
+
+        "------------- AuxData-----------" : {},
+
+        "060e2b34027f01010d01010101017300" : {
+            "name" : "AuxData Essence Descriptor",
+            "resource" : "SMPTE.ST.0429-14-2014 - DCP - Aux Data Track File - Page 7"
+        },
+        "060e2b34010201..0d01030102130201" : {
+            "name" : "Essence Container AuxData - Frame-wrapped Element (Label)",
+            "resource" : "SMPTE.ST.0429-14-2014 - DCP - Aux Data Track File - Page 6 - Table.2"
+        },
+        "060e2b34010201..0d01030117..0d.." : {
+            "name" : "AuxData Essence *",
+			"resource" : "SMPTE.ST.0429-14-2014 - DCP - Aux Data Track File - Page 5"
+        },
+        "060e2b34040101050102030400000000" : {
+            "name" : "AuxData Label Essence Coding",
+            "resource" : "SMPTE.ST.0429-14-2014 - DCP - Aux Data Track File - Page 9"
+        },
+
+
+        "-------- Immersive Audio -------" : {},
+
+        "060e2b34025301050e09060300000000" : {
+            "name" : "Immersive Audio Data Essence Descriptor",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Page 7",
+            "parser": "klv"
+        },
+        "060e2b34025301050e09060600000000" : {
+            "name" : "Immersive Audio Data Essence Sub Descriptor",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Page 8",
+            "parser": "klv"
+        },
+        "060e2b34010201050e09060100000001" : {
+            "name" : "Immersive Audio Data Element",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Page 5",
+			"parser": "immersive_audio_essence"
+        },
+        "060e2b34040101050e09060400000000" : {
+            "name" : "Immersive Audio Data Essence Coding",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Page 8"
+        },
+        "060e2b34040101050e09060500000000" : {
+            "name" : "Immersive Audio Data Essence Container",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Page 7"
+        },
+        "060e2b34010101050e09050700000000" : {
+            "name" : "Immersive Audio - Max Channel Count",
+            "info" : "UL Local Tag (dynamic)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Table 3 'Data Essence Sub-Descriptor Values'",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type": "uint32",
+            "length": "2",
+            "format": "to_int"
+        },
+        "060e2b34010101050e09050800000000": {
+            "name" : "Immersive Audio - Max Object Count",
+            "info" : "UL Local Tag (dynamic)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Table 3 'Data Essence Sub-Descriptor Values'",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type": "uint32",
+            "length": "2",
+            "format": "to_int"
+        },
+        "060e2b34010101050e09050900000000": {
+            "name" : "Immersive Audio - Immersive Audio ID",
+            "info" : "UL Local Tag (dynamic)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Table 3 'Data Essence Sub-Descriptor Values'"
+        },
+        "060e2b34010101050e09050a00000000": {
+            "name" : "Immersive Audio - First Frame",
+            "info" : "UL Local Tag (dynamic)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Table 3 'Data Essence Sub-Descriptor Values'",
+			"format" : "to_int"
+        },
+        "060e2b340101010e040203010f000000": {
+            "name" : "Immersive Audio - IAB Sample Rate",
+            "info" : "UL Local Tag (dynamic)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File - Table 3 'Data Essence Sub-Descriptor Values'"
+        },
+        "060e2b340401010e0e1d010101010100" : {
+            "name" : "Immersive Audio - DTS:X MDA",
+            "info" : "UL Label"
+        },
+
+		"060e2b34025301010d01010101017b00" : {
+			"name" : "Immersive Audio Bitstream Descriptor",
+			"parser" : "klv"
+		},
+		"060e2b34025301010d01010101017c00" : {
+			"name" : "Immersive Audio Bitstream - Soundfield Label Sub-Descriptor",
+			"parser" : "klv"
+		},
+
+        "-------------- D-Box -----------" : {},
+
+        "060e2b340401010d0e16010101010201" : {
+            "name" : "D-BOX Motion Code Primary Stream",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 2"
+        },
+        "060e2b340401010d0e16010101010202" : {
+            "name" : "D-BOX Motion Code Secondary Stream",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 2"
+        },
+        "060e2b340401010d0e16010101010101" : {
+            "name" : "D-BOX Motion Channel Configuration D1 (deprecated?)",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 3"
+        },
+        "060e2b340401010d0e16010101010102" : {
+            "name" : "D-BOX Motion Channel Configuration D2 (deprecated?)",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 4"
+        },
+        "060e2b340401010d0e16010101010103" : {
+            "name" : "D-BOX Motion Channel Configuration D3 (deprecated?)",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 5"
+        },
+        "060e2b340401010d0e16010101010105" : {
+            "name" : "D-BOX Motion Channel Configuration D5 - Digital Surround (deprecated?)",
+            "resource" : "SMPTE.DOC.0005-2017 - DBOX_124-915-0001 - Page 6"
+        },
+
+
+		"060e2b340401010b0402021003....00" : {
+			"name" : "SMPTE-429-2 Sound Channel Labeling",
+			"resource" : "https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003020000" : {
+			"name" : "SMPTE-429-2 Sound Channel Labeling - MXF Multichannel Audio Framework is used",
+			"resource" : "https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b040202100301..00" : {
+			"name" : "SMPTE-429-2 Channel Configuration Unknown (Static)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003010100" : {
+			"name" : "SMPTE-429-2 Channel Configuration 1 (Static)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003010200" : {
+			"name" : "SMPTE-429-2 Channel Configuration 2 (Static)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003010300" : {
+			"name" : "SMPTE-429-2 Channel Configuration 3 (Static)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003010400" : {
+			"name" : "SMPTE-429-2 Channel Configuration 4 (Static but used for dynamic)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b340401010b0402021003010500" : {
+			"name" : "SMPTE-429-2 Channel Configuration 5 (Static)",
+			"resource" : "SMPTE 429-3 DCP Operational Constraints, https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+
+
+        "060e2b34010201010d01030115..12.." : {
+            "name" : "ACES Picture Element - Frame-Wrapped *",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 5 - Table 2"
+        },
+        "060e2b34010201010d01030115..13.." : {
+            "name" : "ACES Picture Element - Clip-Wrapped *",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 5 - Table 3"
+        },
+        "060e2b340401010d0d01030102190000" : {
+            "name" : "ACES MXF-Generic Container Pictures",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 6 - Table 4"
+        },
+        "060e2b340401010d0d01030102190100" : {
+            "name" : "ACES MXF-Generic Container Frame Wrapped Pictures",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 6 - Table 5"
+        },
+        "060e2b340401010d0d01030102190200" : {
+            "name" : "ACES MXF-Generic Container Clip Wrapped Pictures",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 6 - Table 6"
+        },
+        "060e2b340401010d0401020203040000" : {
+            "name" : "ACES Picture Coding Schemes",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 6 - Table 7"
+        },
+        "060e2b340401010d0401020203040100" : {
+            "name" : "ACES Uncompressed Monoscopic Without Alpha",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 7 - Table 8"
+        },
+        "060e2b340401010d0401020203040200" : {
+            "name" : "ACES Uncompressed Monoscopic With Alpha",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 7 - Table 9"
+        },
+        "060e2b34040101060401010101060000" : {
+            "name" : "ACES Linear Transfer Characteristic",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 10 - Table 14"
+        },
+        "060e2b340401010d0401010103070000" : {
+            "name" : "ACES Color Primaries",
+            "resource" : "SMPTE.ST.2065-5.2016 - MXF - Mapping ACES Image Sequences into the MXF Generic Container - Page 10 - Table 15"
+        },
+
+
+
+        "------------ MXF Standard Layer ---------------------------------------------": {},
+
+
+        "060e2b34020501010d01020101020100" : {
+            "name" : "Partition Pack - Header - Open & Incomplete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 41-44-46"
+        },
+        "060e2b34020501010d01020101020200" : {
+            "name" : "Partition Pack - Header - Closed & Incomplete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 41-44-46"
+        },
+        "060e2b34020501010d01020101020300" : {
+            "name" : "Partition Pack - Header - Open & Complete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 41-44-46"
+        },
+        "060e2b34020501010d01020101020400" : {
+            "name" : "Partition Pack - Header - Closed & Complete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 41-44-46"
+        },
+        "060e2b34020501010d01020101030100" : {
+            "name" : "Partition Pack - Body - Open & Incomplete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101030200" : {
+            "name" : "Partition Pack - Body - Closed & Incomplete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101030300" : {
+            "name" : "Partition Pack - Body - Open & Complete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101030400" : {
+            "name" : "Partition Pack - Body - Closed & Complete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101031100" : {
+            "name" : "Partition Pack - Body - Generic Stream Partition",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0410-2008 - MXF - Generic Stream Partition - page 6"
+        },
+        "060e2b34020501010d01020101040200" : {
+            "name" : "Partition Pack - Footer - Closed & Incomplete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101040400" : {
+            "name" : "Partition Pack - Footer - Closed & Complete",
+            "parser": "partition_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 45"
+        },
+        "060e2b34020501010d01020101050100" : {
+            "name" : "Primer Pack",
+            "parser": "primer_pack",
+            "resource": "SMPTE ST 377-1:2011 - MXF - File Format Specification - Page 55 - (Table 13)"
+        },
+        "060e2b34025301010d01010101013000" : {
+            "name" : "Identification",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 73 + 114"
+        },
+        "060e2b34025301010d01010101012f00" : {
+            "name" : "Preface",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 113"
+        },
+        "060e2b34025301010d01010101011800" : {
+            "name" : "Content Storage",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 116"
+        },
+        "060e2b34025301010d01010101012300" : {
+            "name" : "Essence Container Data",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 116"
+        },
+        "060e2b34025301010d01010101013600" : {
+            "name" : "Material Package",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 117 - Generic Package table"
+        },
+        "060e2b34025301010d01010101013b00" : {
+            "name" : "Timeline Track",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Timeline Track  (B.6 Generic Track - page 119 + B.15 Timeline Track (Timecode) - page 124)"
+        },
+        "060e2b34025301010d01010101010f00" : {
+            "name" : "Sequence",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Sequence (B.16 Sequence (Timecode) - page 125 + B9 + B8)"
+        },
+        "060e2b34025301010d01010101011100" : {
+            "name" : "Source Clip",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 122+127"
+        },
+        "060e2b34025301010d01010101013a00" : {
+            "name" : "Static Track",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 124"
+        },
+        "060e2b34025301010d01010101014100" : {
+            "name" : "Descriptive Metadata Segment",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 131"
+        },
+        "060e2b34025301010d01010101012900" : {
+            "name" : "RGBA Essence Descriptor",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 148, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application"
+        },
+        "060e2b34025301010d01010101015a00" : {
+            "name" : "JPEG2000 Picture Sub-Descriptor",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Generic Picture Essence Descriptor, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application"
+        },
+        "060e2b34010101020301021001000000" : {
+            "name" : "KLV Fill item (SMPTE)",
+            "parser": "fill_item",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - KLV Fill item"
+        },
+        "060e2b34010101010301021001000000" : {
+            "name" : "KLV Fill item (Interop)",
+            "parser": "fill_item",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - KLV Fill item"
+        },
+        "060e2b34021301010d01020101100100" : {
+            "name" : "Index Table Segment (2-bytes LocalTags, BER-format Length)",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 102"
+        },
+        "060e2b34025301010d01020101100100" : {
+            "name" : "Index Table Segment (2-bytes LocalTags, 2-bytes Length)",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - page 102"
+        },
+		"060e2b34025301..0d01020101110100" : {
+            "name" : "Random Index Pack *",
+            "parser": "random_index_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Random Index Pack (Table 29) + Internal Structure"
+		},
+        "060e2b34020501010d01020101110100" : {
+            "name" : "Random Index Pack",
+            "parser": "random_index_pack",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Random Index Pack (Table 29) + Internal Structure"
+        },
+        "060e2b34025301010d01010101011400" : {
+            "name" : "Timecode Component",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification - Timecode Component"
+        },
+        "060e2b34025301010d01010101013700" : {
+            "name" : "Source Package",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0377-1-2011 - MXF - File Format Specification"
+        },
+
+
+        "------------ Picture Essence ---------------------------------------": {},
+
+        "060e2b34010201..0d01030115......" : {
+            "name" : "Picture Essence *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+        "060e2b34010201..0d01030115..02.." : {
+            "name" : "Picture Essence - Frame Wrapped Picture *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+        "060e2b34010201..0d01030115..03.." : {
+            "name" : "Picture Essence - Clip Wrapped Picture *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+        "060e2b34010201..0d01030115..04.." : {
+            "name" : "Picture Essence - Line Wrapped Picture *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+        "060e2b34010201..0d01030115..08.." : {
+            "name" : "Picture Essence - Line Wrapped Data, Not Clip Wrapped *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+		"060e2b34010201010d01030115010801" : {
+            "name" : "Picture Essence - 1 frame",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+		},
+        "060e2b34010201..0d01030115..09.." : {
+            "name" : "Picture Essence - Line Wrapped VANC Data, Clip-wrapped *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+        "060e2b34010201..0d01030115..0a.." : {
+            "name" : "Picture Essence - Line Wrapped HANC Data *",
+            "parser": "picture_essence",
+            "resource": "SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container, SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application, SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container"
+        },
+
+		"060e2b340401010d04010101010a0000" : {
+			"name" : "Transfer Characteristics - HDR / BT2020",
+			"resource" : "SMPTE ST 2084, https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt109e419dd7c40d1d/640b382d42ee69354723919b/Technical_Specification_for_Delivery_of_Content_to_Sky.pdf"
+		},
+		"060e2b340401010d0401010103040000" : {
+			"name" : "Colour Primaries - HDR / BT2020",
+			"resource" : "SMPTE ST 2084, https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt109e419dd7c40d1d/640b382d42ee69354723919b/Technical_Specification_for_Delivery_of_Content_to_Sky.pdf"
+        },
+		"060e2b340401010d0401010102060000" : {
+			"name" : "Coding Equations - HDR / BT2020",
+			"resource" : "SMPTE ST 2084, https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/blt109e419dd7c40d1d/640b382d42ee69354723919b/Technical_Specification_for_Delivery_of_Content_to_Sky.pdf"
+        },
+
+
+        "------------ Cryptographic Essence ---------------------------------------": {},
+
+        "060e2b34020401070d010301027e0100" : {
+            "name" : "Encrypted Essence Container (Interop)",
+            "parser": "essence_encrypted",
+            "resource": "SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption"
+        },
+        "060e2b34020401010d010301027e0100" : {
+            "name" : "Encrypted Essence Container (SMPTE)",
+            "parser": "essence_encrypted",
+            "resource": "SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption, Page 10"
+        },
+        "060e2b34040101070d01040102010100" : {
+            "name" : "Cryptographic Framework Label",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption, Page 6 - Table 4) + (page 19 - 10.2)"
+        },
+        "060e2b34025301010d01040102010000" : {
+            "name" : "Cryptographic Framework",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption, Page 6 - Table 5 + Page 20 - 10.3 - Table 3 – Cryptographic Framework Set"
+        },
+        "060e2b34025301010d01040102020000" : {
+            "name" : "Cryptographic Context",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption, Page 8 - Table 6 + Page 21 - 10.4 - Table 5 - Cryptographic Context Set"
+        },
+        "060e2b34040101..0d010301020b0100" : {
+            "name" : "Encrypted Essence Container - Frame Wrapped",
+            "resource" : "SMPTE ST 429-6 - MXF Track File Essence Encryption, Page 18"
+        },
+        "060e2b34040101070d010301020b0100" : {
+            "name" : "Encrypted Essence Container - Frame Wrapped",
+            "resource" : "SMPTE ST 429-6 - MXF Track File Essence Encryption, Page 18"
+        },
+        "060e2b34020401010d010301027e...." : {
+            "name" : "Encrypted Essence Container - Unknown Format",
+            "resource" : "SMPTE ST 429-6 - MXF Track File Essence Encryption, Page 22 (based on Table Encrypted Triplet Key)"
+        },
+        "060e2b34040101070d010301020c0100" : {
+            "name" : "JPEG2000 Picture Element - Frame Wrapped",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container, Page 10 - Table 2"
+        },
+        "060e2b34040101070209020101000000": {
+            "name" : "AES-CBC-128",
+            "type" : "label"
+        },
+        "060e2b34040101070209020201000000": {
+            "name" : "HMAC-SHA1-128",
+            "type" : "label"
+        },
+
+
+
+        "------------ Stereoscopic Essence ---------------------------------------": {},
+
+        "060e2b34025301010d01010101016300" : {
+            "name" : "Stereoscopic Picture Sub-Descriptor (v01)",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0429-10-2008 - DCP - Stereoscopic Picture Track File - page 9"
+        },
+        "060e2b340253010c0d01010101016300" : {
+            "name" : "Stereoscopic Picture Sub-Descriptor (v0c)",
+            "parser": "klv",
+            "resource": "SMPTE.ST.0429-10-2008 - DCP - Stereoscopic Picture Track File - page 9"
+        },
+
+
+        "----------------------- Common Audio Channels and SoundField Groups --------------------" : {},
+
+        "060e2b340401010d030201..00000000" : {
+            "name" : "Audio Channel *",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups"
+        },
+		"060e2b340401010d0302010100000000": {
+	   		"name": "Audio Channel - Left (L)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010200000000": {
+	   		"name": "Audio Channel - Right (R)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010300000000": {
+	   		"name": "Audio Channel - Center (C)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010400000000": {
+	   		"name": "Audio Channel - LFE (LFE)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010500000000": {
+	   		"name": "Audio Channel - Left Surround (Ls)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010600000000": {
+	   		"name": "Audio Channel - Right Surround (Rs)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010700000000": {
+	   		"name": "Audio Channel - Left Side Surround (Lss)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010800000000": {
+	   		"name": "Audio Channel - Right Side Surround (Rss)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010900000000": {
+	   		"name": "Audio Channel - Left Rear Surround (Lrs)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010a00000000": {
+	   		"name": "Audio Channel - Right Rear Surround (Rrs)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010b00000000": {
+	   		"name": "Audio Channel - Left Center (Lc)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010c00000000": {
+	   		"name": "Audio Channel - Right Center (Rc)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010d00000000": {
+	   		"name": "Audio Channel - Center Surround (Cs)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010e00000000": {
+	   		"name": "Audio Channel - Hearing Impaired (HI)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+		"060e2b340401010d0302010f00000000": {
+	   		"name": "Audio Channel - Visually Impaired-Narrative (VIN)",
+			"resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 2 – Audio Channel UL Structure + Table 1 – Audio Channels"
+		},
+
+
+        "060e2b340401010d030202..00000000" : {
+            "name" : "Soundfield Group *",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+        "060e2b340401010d0302020100000000" : {
+            "name" : "Soundfield Group - 5.1 (L, C, R, Ls, Rs, LFE)",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+        "060e2b340401010d0302020200000000" : {
+            "name" : "Soundfield Group - 7.1DS (L, C, R, Lss, Rss, Lrs, Rrs, LFE)",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+        "060e2b340401010d0302020300000000" : {
+            "name" : "Soundfield Group - 7.1SDS (L, Lc, C, Rc, R, Ls, Rs, LFE)",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+        "060e2b340401010d0302020400000000" : {
+            "name" : "Soundfield Group - 6.1 (L, R, C, Lss, Rss, Cs, LFE)",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+        "060e2b340401010d0302020500000000" : {
+            "name" : "Soundfield Group - 1.0 Monaural (C)",
+            "resource" : "SMPTE 428-12 - Common Audio Channels & SoundField Groups - Table 4 - Soundfield Group UL Structure + Table 3 - SoundField Groups"
+        },
+
+
+        "====================== Local Tag Static : UL ===================" : {},
+
+        "060e2b34010101020401050306000000" : {
+            "name" : "PixelLayout",
+            "localtag" : "3401",
+            "info" : "UL Local Tag (static)",
+            "type" : "RGBALayout",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "rgba_layout"
+        },
+        "060e2b3401010105040105030e000000" : {
+            "name" : "Alpha Min Ref",
+            "localtag" : "3409",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "to_int"
+        },
+        "060e2b3401010105040105030d000000" : {
+            "name" : "Alpha Max Ref",
+            "localtag" : "3408",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "to_int"
+        },
+        "060e2b3401010105040105030c000000" : {
+            "name" : "Component Min Ref",
+            "localtag" : "3407",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "to_int"
+        },
+        "060e2b3401010105040105030b000000" : {
+            "name" : "Component Max Ref",
+            "localtag" : "3406",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "to_int"
+        },
+        "060e2b34010101050401040401000000" : {
+            "name" : "ScanningDirection",
+            "localtag" : "3405",
+            "info" : "UL Local Tag (static)",
+            "type" : "Orientation",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "format": "to_int"
+        },
+        "060e2b34010101050402030101010000" : {
+            "name" : "Audio sampling rate",
+            "localtag" : "3D03",
+            "info" : "UL Local Tag (static)",
+            "type" : "rational",
+            "length" : 8,
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "edit_rate"
+        },
+        "060e2b34010101040402030104000000" : {
+            "name" : "Locked/Unlocked",
+            "localtag" : "3D02",
+            "info" : "UL Local Tag (static)",
+            "type" : "boolean",
+            "length" : 1,
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "boolean"
+        },
+        "060e2b34010101010402010103000000" : {
+            "name" : "Audio Ref Level",
+            "localtag" : "3D04",
+            "info" : "UL Local Tag (static)",
+            "type" : "int8",
+            "length" : 1,
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "to_int"
+        },
+        "060e2b34010101050402010104000000" : {
+            "name" : "ChannelCount",
+            "localtag" : "3D07",
+            "info" : "UL Local Tag (static)",
+            "type": "uint32",
+            "length": "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "to_int"
+        },
+        "060e2b34010101010402010101000000" : {
+            "name" : "Electro-Spatial Formulation",
+            "localtag" : "3D05",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8:enum",
+            "length" : 1,
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "to_int"
+        },
+        "060e2b34010101040402030304000000" : {
+            "name" : "Quantization bits",
+            "localtag" : "3D01",
+            "info" : "UL Local Tag (static)",
+            "type": "uint32",
+            "length": "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "to_int"
+        },
+        "060e2b34010101050402070100000000" : {
+            "name" : "Dial Norm",
+            "localtag" : "3D0C",
+            "info" : "UL Local Tag (static)",
+            "type": "int8",
+            "length": "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "format": "to_int"
+        },
+        "060e2b34010101030403030200000000" : {
+            "name" : "Data Essence Coding (v3)",
+            "localtag": "3E01",
+            "info" : "UL Local Tag (static)",
+            "resource" : "SMPTE 377-1-2011 - MXF File Format Specification - Generic Data Essence Descriptor - Page 150",
+            "type": "UL",
+            "length" : 16,
+            "format": "uuid"
+        },
+        "060e2b34010101050403030200000000" : {
+            "name" : "Data Essence Coding (v5)",
+            "localtag" : "3E01",
+            "info" : "UL Local Tag (static)",
+            "resource" : "SMPTE ST 429-18 - D-Cinema Packaging - Immersive Audio Track File",
+			"type": "UL",
+			"length" : 16,
+			"format": "uuid"
+        },
+        "060e2b34010101020402040200000000" : {
+            "name" : "Sound Essence Coding",
+            "localtag" : "3D06",
+            "info" : "UL Local Tag (static)",
+            "resource" : "SMPTE 377-1-2011 - Generic Sound Essence Descriptor - Page 149",
+            "type": "UL",
+            "length" : 16,
+            "format": "ul"
+        },
+        "060e2b34010101020401050309000000" : {
+            "name" : "PaletteLayout",
+            "localtag" : "3404",
+            "info" : "UL Local Tag (static)",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "type" : "RGBALayout",
+            "length" : "variable",
+            "format": "to_int"
+        },
+        "060e2b34010101020401050308000000" : {
+            "name" : "Palette",
+            "localtag" : "3403",
+            "info" : "UL Local Tag (static)",
+            "resource" : "SMPTE 377-1-2011 - RGBA Picture Essence Descriptor - Page 148",
+            "type" : "DataValue",
+            "length" : "variable",
+            "format": "to_int"
+        },
+        "060e2b34010101020401050305000000" : {
+            "name" : "Color Range",
+            "localtag" : "3306",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050304000000" : {
+            "name" : "White Ref level",
+            "localtag" : "3305",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050303000000" : {
+            "name" : "Black Ref Level",
+            "localtag" : "3304",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b34010101020401050307000000" : {
+            "name" : "Alpha Sample Depth",
+            "localtag" : "3309",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b34010101020418010400000000" : {
+            "name" : "PaddingBits",
+            "localtag" : "3307",
+            "info" : "UL Local Tag (static)",
+            "type" : "int16",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b3401010105030102010a000000" : {
+            "name" : "ReversedByteOrder",
+            "localtag" : "330B",
+            "info" : "UL Local Tag (static)",
+            "type" : "boolean",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "boolean"
+        },
+        "060e2b34010101010401050106000000" : {
+            "name" : "Color Siting",
+            "localtag" : "3303",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "unknown"
+        },
+        "060e2b34010101020401050110000000" : {
+            "name" : "Vertical Subsampling",
+            "localtag" : "3308",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050105000000" : {
+            "name" : "Horizontal Subsampling",
+            "localtag" : "3302",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+        "060e2b3401010102040105030a000000" : {
+            "name" : "Component Depth",
+            "localtag" : "3301",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - CDCI Picture Essence Descriptor - Page 146",
+            "format": "to_int"
+        },
+
+        "060e2b34010101090401020101060100" : {
+            "name" : "Color Primaries",
+            "localtag" : "3219",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "uuid"
+        },
+        "060e2b34010101020401020101030100" : {
+            "name" : "Coding Equations",
+            "localtag" : "321A",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "uuid"
+        },
+        "060e2b34010101020401060100000000" : {
+            "name" : "Picture Essence Coding",
+            "localtag" : "3201",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "picture_essence_coding"
+        },
+        "060e2b34010101020401030106000000" : {
+            "name" : "FieldDominance",
+            "localtag" : "3212",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "unknown"
+        },
+        "060e2b34010101020418010300000000" : {
+            "name" : "Image End Offset",
+            "localtag" : "3214",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101020418010200000000" : {
+            "name" : "Image Start Offset",
+            "localtag" : "3213",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101020418010100000000" : {
+            "name" : "Image Alignment Offset",
+            "localtag" : "3211",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101020401020101010200" : {
+            "name" : "Transfer Characteristic",
+            "localtag" : "3210",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "uuid"
+        },
+        "060e2b34010101020520010200000000" : {
+            "name" : "Alpha Transparency",
+            "localtag" : "320F",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101020401030205000000" : {
+            "name" : "Video Line Map",
+            "localtag" : "320D",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:int32",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+			"format" : "batch_ul"
+        },
+        "060e2b34010101050401030209000000" : {
+            "name" : "Active Format Descriptor",
+            "localtag" : "3218",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "unknown"
+        },
+        "060e2b34010101010401010101000000" : {
+            "name" : "Aspect Ratio",
+            "localtag" : "320E",
+            "info" : "UL Local Tag (static)",
+            "type" : "rational",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "aspect_ratio"
+        },
+        "060e2b34010101050401030207000000" : {
+            "name" : "DisplayF2Offset",
+            "localtag" : "3217",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b3401010101040105010e000000" : {
+            "name" : "DisplayYOffset",
+            "localtag" : "320B",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b3401010101040105010d000000" : {
+            "name" : "DisplayXOffset",
+            "localtag" : "320A",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b3401010101040105010c000000" : {
+            "name" : "DisplayWidth",
+            "localtag" : "3209",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b3401010101040105010b000000" : {
+            "name" : "DisplayHeight",
+            "localtag" : "3208",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b3401010101040105010a000000" : {
+            "name" : "SampledYOffset",
+            "localtag" : "3207",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050109000000" : {
+            "name" : "SampledXOffset",
+            "localtag" : "3206",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050107000000" : {
+            "name" : "Sampled Height",
+            "localtag" : "3204",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050108000000" : {
+            "name" : "Sampled Width",
+            "localtag" : "3205",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101050401030208000000" : {
+            "name" : "StoredF2Offset",
+            "localtag" : "3216",
+            "info" : "UL Local Tag (static)",
+            "type" : "int32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050201000000" : {
+            "name" : "Stored Height",
+            "localtag" : "3202",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401050202000000" : {
+            "name" : "Stored Width",
+            "localtag" : "3203",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "to_int"
+        },
+        "060e2b34010101010401030104000000" : {
+            "name" : "Frame Layout",
+            "localtag" : "320C",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "frame_layout"
+        },
+        "060e2b34010101050405011300000000" : {
+            "name" : "Signal Standard",
+            "localtag" : "3215",
+            "info" : "UL Local Tag (static)",
+            "type" : "enum",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Generic Picture Essence Descriptor - Page 143",
+            "format": "unknown"
+        },
+
+        "060e2b340101010406010104060b0000" : {
+            "name" : "Sub-Descriptor UIDs",
+            "localtag" : "3F01",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:filedescriptor",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Multiple Descriptor - Page 143",
+            "format": "batch_ul"
+        },
+
+        "060e2b34010101020601010401030000" : {
+            "name" : "Codec",
+            "localtag" : "3005",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - File Descriptor",
+            "format": "uuid"
+        },
+        "060e2b34010101020601010401020000" : {
+            "name" : "Essence Container",
+            "localtag" : "3004",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - File Descriptor",
+            "format" : "uuid_ul"
+        },
+        "060e2b34010101010406010200000000" : {
+            "name" : "Container Duration",
+            "localtag" : "3002",
+            "info" : "UL Local Tag (static)",
+            "type" : "Length",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - File Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101010406010100000000" : {
+            "name" : "Sample Rate",
+            "localtag" : "3001",
+            "info" : "UL Local Tag (static)",
+            "type" : "rational",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - File Descriptor",
+            "format": "edit_rate"
+        },
+        "060e2b34010101050601010305000000" : {
+            "name" : "Linked Track ID",
+            "localtag" : "3006",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - File Descriptor",
+            "format": "to_int"
+        },
+
+        "060e2b34010101020601010402030000" : {
+            "name" : "Descriptor",
+            "localtag" : "4701",
+            "info" : "UL Local Tag (static)",
+            "type" : "essencedescriptor?",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Source Package",
+            "format": "uuid"
+        },
+
+        "060e2b340101010c06010104020f0000" : {
+            "name" : "Package Marker",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "package_marker_object",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Material Package"
+        },
+
+        "060e2b340101010c0520070111000000" : {
+            "name" : "Linked Descriptive Object Plug-In ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "dm_segment_id",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Descriptive Object"
+        },
+
+        "060e2b340101010c052007010c000000" : {
+            "name" : "Linked Descriptive Framework Plug-In ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "dm_segment_id",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Descriptive Framework"
+        },
+
+        "060e2b340101010c052007010b000000" : {
+            "name" : "Linked Application Plug-In Instance ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "application_plugin_id",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Application Referenced Object"
+        },
+
+        "060e2b340101010c052007010f000000" : {
+            "name" : "Application Environment ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:utf-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Application Plug-In Object"
+        },
+
+        "060e2b340101010c0406080300000000" : {
+            "name" : "Application Scheme",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Application Plug-In Object"
+        },
+
+        "060e2b340101010c052007010d000000" : {
+            "name" : "Application Plug-In Instance ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Application Plug-In Object"
+        },
+
+        "060e2b340101010c06010104010b0000" : {
+            "name" : "Base Class",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "AUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Application Object"
+        },
+
+        "060e2b340101010a0702010302040000" : {
+            "name" : "Package Mark Out Position",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Package Marker Object"
+        },
+
+        "060e2b340101010a07020103010e0000" : {
+            "name" : "Package Mark In Position",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Package Marker Object"
+        },
+
+        "060e2b340101010a07020103010e0000" : {
+            "name" : "Package Mark In Position",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Package Marker Object"
+        },
+
+        "060e2b340101010c060101030e000000" : {
+            "name" : "Timebase ReferenceTrack ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Package Marker Object"
+        },
+
+        "060e2b34010101050107010600000000" : {
+            "name" : "Track IDs (DM Source Clip)",
+            "localtag" : "6103",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - DM Source Clip"
+        },
+
+        "060e2b340101010c0520070110000000" : {
+            "name" : "Descriptive Metadata Application Environment ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:utf-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - DM Segment"
+        },
+        "060e2b340101010c0406080400000000" : {
+            "name" : "Descriptive Metadata (DM) Scheme",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - DM Segment"
+        },
+        "060e2b340101010c052007010e000000" : {
+            "name" : "Descriptive Metadata (DM) Scheme",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - DM Segment"
+        },
+        "060e2b340101010506010104020c0000" : {
+            "name" : "Descriptive Metadata (DM) Framework",
+            "localtag" : "6101",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - DM Segment",
+            "format": "uuid"
+        },
+        "060e2b34010101040107010500000000" : {
+            "name" : "Track IDs (DM Segment)",
+            "localtag" : "6102",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:uint32",
+            "length" : "8+4*n",
+            "resource" : "SMPTE 377-1-2011 - DM Segment",
+            "format": "unknown"
+        },
+
+        "060e2b34010101020530040401000000" : {
+            "name" : "Event Comment",
+            "localtag" : "0602",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:utf-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Event",
+            "format": "to_string"
+        },
+        "060e2b34010101020702010303030000" : {
+            "name" : "Event Start Position",
+            "localtag" : "0601",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Event",
+            "format": "to_int"
+        },
+
+        "060e2b34010101010404010105000000" : {
+            "name" : "Drop Frame",
+            "localtag" : "1503",
+            "info" : "UL Local Tag (static)",
+            "type" : "boolean",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Timecode Component",
+            "format": "boolean"
+        },
+        "060e2b34010101020404010102060000" : {
+            "name" : "Rounded Timecode Base",
+            "localtag" : "1502",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - Timecode Component",
+            "format": "to_int"
+        },
+        "060e2b34010101020702010301050000" : {
+            "name" : "Start Timecode",
+            "localtag" : "1501",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position:timecode",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Timecode Component",
+            "format": "to_int"
+        },
+
+        "060e2b340101010507020103010b0000" : {
+            "name" : "Event Origin",
+            "localtag" : "4902",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position:timecode",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Track Event",
+            "format": "to_int"
+        },
+        "060e2b34010101020530040200000000" : {
+            "name" : "Event Edit Rate",
+            "localtag" : "4901",
+            "info" : "UL Local Tag (static)",
+            "type" : "rational",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Track Event",
+            "format": "to_int"
+        },
+
+        "060e2b34010101020530040500000000" : {
+            "name" : "Edit Rate",
+            "localtag" : "4B01",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Timeline Track",
+            "format": "edit_rate"
+        },
+        "060e2b34010101020702010301030000" : {
+            "name" : "Origin",
+            "localtag" : "4B02",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Timeline Track",
+            "format": "to_int"
+        },
+
+        "060e2b34010101020601010302000000" : {
+            "name" : "SourceTrackID",
+            "localtag" : "1102",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Source Clip",
+            "format": "to_int"
+        },
+        "060e2b34010101020601010301000000" : {
+            "name" : "SourcePackageID",
+            "localtag" : "1101",
+            "info" : "UL Local Tag (static)",
+            "type" : "umid:package_ref",
+            "length" : "32",
+            "resource" : "SMPTE 377-1-2011 - Source Clip",
+            "format": "umid"
+        },
+        "060e2b34010101020702010301040000" : {
+            "name" : "Start Position",
+            "localtag" : "1201",
+            "info" : "UL Local Tag (static)",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Source Clip",
+            "format": "to_int"
+        },
+
+        "060e2b34010101020601010406090000" : {
+            "name" : "Structural Components UID",
+            "localtag" : "1001",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Sequence",
+            "format": "batch_ul"
+        },
+
+        "060e2b34010101020702020101030000" : {
+            "name" : "Duration",
+            "localtag" : "0202",
+            "info" : "UL Local Tag (static)",
+            "type" : "Length",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Structural Component",
+            "format": "to_int"
+        },
+        "060e2b34010101020407010000000000" : {
+            "name" : "Data Definition",
+            "localtag" : "0201",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Structural Component",
+            "format": "uuid_ul"
+        },
+
+        "060e2b34010101020601010402040000" : {
+            "name" : "Sequence UID",
+            "localtag" : "4803",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Generic Track",
+            "format": "uuid"
+        },
+        "060e2b34010101020107010201000000" : {
+            "name" : "Track Name",
+            "localtag" : "4802",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Generic Track",
+            "format": "to_string"
+        },
+        "060e2b34010101020104010300000000" : {
+            "name" : "Track Number",
+            "localtag" : "4804",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Track",
+            "format": "uuid"
+        },
+        "060e2b34010101020107010100000000" : {
+            "name" : "Track ID",
+            "localtag" : "4801",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Generic Track",
+            "format": "to_int"
+        },
+
+        "060e2b34010101020104010201000000" : {
+            "name" : "Locator Name",
+            "localtag" : "4101",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Text Locator"
+        },
+
+        "060e2b34010101010102010101000000" : {
+            "name" : "URL String",
+            "localtag" : "4001",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Network Locator"
+        },
+
+        "060e2b34010101090601010406100000" : {
+            "name" : "Sub-Descriptors",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Generic Descriptor"
+        },
+        "060e2b34010101020601010406030000" : {
+            "name" : "Locators",
+            "localtag" : "2F01",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Generic Descriptor"
+        },
+
+        "060e2b34010101020601010406050000" : {
+            "name" : "Tracks UID",
+            "localtag" : "4403",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Generic Package",
+            "format": "batch_ul"
+        },
+        "060e2b34010101020702011002050000" : {
+            "name" : "Package Modified Date",
+            "localtag" : "4404",
+            "info" : "UL Local Tag (static)",
+            "type" : "Timestamp",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Generic Package",
+            "format": "timestamp"
+        },
+        "060e2b34010101020702011001030000" : {
+            "name" : "Package Creation Date",
+            "localtag" : "4405",
+            "info" : "UL Local Tag (static)",
+            "type" : "Timestamp",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Generic Package",
+            "format": "timestamp"
+        },
+        "060e2b34010101010103030201000000" : {
+            "name" : "Name",
+            "localtag" : "4402",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:utf-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Generic Package",
+            "format": "to_string"
+        },
+        "060e2b34010101010101151000000000" : {
+            "name" : "Package UID",
+            "localtag" : "4401",
+            "info" : "UL Local Tag (static)",
+            "type" : "umid:package_id",
+            "length" : "32",
+            "resource" : "SMPTE 377-1-2011 - Generic Package",
+            "format": "umid"
+        },
+
+        "060e2b34010101040103040400000000" : {
+            "name" : "BodySID",
+            "localtag" : "3F07",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Essence Container Data, Random Index Pack, Index Table Segment, Partition Pack",
+            "format": "to_int"
+        },
+        "060e2b34010101040103040500000000" : {
+            "name" : "IndexSID",
+            "localtag" : "3F06",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Essence Container Data, Index Table Segment, Partition Pack",
+            "format": "to_int"
+        },
+        "060e2b34010101020601010601000000" : {
+            "name" : "Linked Package UID",
+            "localtag" : "2701",
+            "info" : "UL Local Tag (static)",
+            "type" : "umid:package_ref?",
+            "length" : "32",
+            "resource" : "SMPTE 377-1-2011 - Essence Container Data",
+            "format": "umid"
+        },
+
+        "060e2b34010101020601010405020000" : {
+            "name" : "Essence Container Data",
+            "localtag" : "1902",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Content Storage",
+            "format": "batch_ul"
+        },
+        "060e2b34010101020601010405010000" : {
+            "name" : "Packages",
+            "localtag" : "1901",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Content Storage",
+            "format": "batch_ul"
+        },
+
+        "060e2b34010101020520070106010000" : {
+            "name" : "Platform",
+            "localtag" : "3C08",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "to_string"
+        },
+        "060e2b3401010102052007010a000000" : {
+            "name" : "ToolkitVersion",
+            "localtag" : "3C07",
+            "info" : "UL Local Tag (static)",
+            "type" : "ProductVersion",
+            "length" : "10",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "versioning"
+        },
+        "060e2b34010101020702011002030000" : {
+            "name" : "Modification Date",
+            "localtag" : "3C06",
+            "info" : "UL Local Tag (static)",
+            "type" : "Timestamp",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "timestamp"
+        },
+        "060e2b34010101020520070107000000" : {
+            "name" : "Product UID",
+            "localtag" : "3C05",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "uuid"
+        },
+        "060e2b34010101020520070105010000" : {
+            "name" : "Version String",
+            "localtag" : "3C04",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "to_string"
+        },
+        "060e2b34010101020520070104000000" : {
+            "name" : "Product Version",
+            "localtag" : "3C03",
+            "info" : "UL Local Tag (static)",
+            "type" : "ProductVersion",
+            "length" : "10",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "versioning"
+        },
+        "060e2b34010101020520070103010000" : {
+            "name" : "Product Name",
+            "localtag" : "3C02",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "to_string"
+        },
+        "060e2b34010101020520070102010000" : {
+            "name" : "Company Name",
+            "localtag" : "3C01",
+            "info" : "UL Local Tag (static)",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "to_string"
+        },
+        "060e2b34010101020520070101000000" : {
+            "name" : "This Generation UID",
+            "localtag" : "3C09",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Identification",
+            "format": "uuid"
+        },
+
+        "060e2b340101010c0102021002030000" : {
+            "name" : "Application Schemes Batch",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:UL",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Preface"
+        },
+        "060e2b34010101050102021002020000" : {
+            "name" : "Descriptive Metadata (DM) Schemes",
+            "localtag" : "3B0B",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:UL",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "batch_ul"
+        },
+        "060e2b34010101050102021002010000" : {
+            "name" : "EssenceContainers",
+            "localtag" : "3B0A",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:UL",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Preface, Partition Pack",
+            "format": "batch_ul"
+        },
+        "060e2b34010101050102020300000000" : {
+            "name" : "Operational Pattern",
+            "localtag" : "3B09",
+            "info" : "UL Local Tag (static)",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Preface, Partition Pack",
+            "format": "uuid_ul"
+        },
+        "060e2b34010101020601010402010000" : {
+            "name" : "Content Storage",
+            "localtag" : "3B03",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "uuid"
+        },
+        "060e2b34010101020601010406040000" : {
+            "name" : "Identifications",
+            "localtag" : "3B06",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:UL",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "batch_ul"
+        },
+        "060e2b34010101040601010401080000" : {
+            "name" : "Primary Package",
+            "localtag" : "3B08",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID?",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "uuid"
+        },
+        "060e2b34010101020301020104000000" : {
+            "name" : "Object Model Version",
+            "localtag" : "3B07",
+            "info" : "UL Local Tag (static)",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "to_int"
+        },
+        "060e2b34010101020301020105000000" : {
+            "name" : "Version",
+            "localtag" : "3B05",
+            "info" : "UL Local Tag (static)",
+            "type" : "VersionType",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "to_int"
+        },
+        "060e2b34010101020702011002040000" : {
+            "name" : "Last Modified Date",
+            "localtag" : "3B02",
+            "info" : "UL Local Tag (static)",
+            "type" : "Timestamp",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Preface",
+            "format": "timestamp"
+        },
+
+        "060e2b340101010c06010104020e0000" : {
+            "name" : "ApplicationPlug-In Batch",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag (static)",
+            "type" : "array:UUID?",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 377-1-2011 - Interchange Object"
+        },
+        "060e2b34010101020601010401010000" : {
+            "name" : "Object Class",
+            "localtag" : "0101",
+            "info" : "UL Local Tag (static)",
+            "type" : "AUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Interchange Object",
+            "format" : "unknown"
+        },
+        "060e2b34010101020520070108000000" : {
+            "name" : "Generation UID",
+            "localtag" : "0102",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Interchange Object",
+            "format" : "uuid"
+        },
+        "060e2b34010101010101150200000000" : {
+            "name" : "Instance UID",
+            "localtag" : "3C0A",
+            "info" : "UL Local Tag (static)",
+            "type" : "UUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Interchange Object, Index Table Segment",
+            "format": "uuid"
+        },
+    
+        "060e2b34010101040406100100000000" : {
+            "name" : "Length",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Random Index Pack"
+        },
+        "060e2b34010101040609020101000000" : {
+            "name" : "Byte Offset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Random Index Pack"
+        },
+    
+    
+        "060e2b34010101050404040108000000" : {
+            "name" : "PosTable",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "npe*rational",
+            "length" : "8*NPE",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+        "060e2b34010101040404040105000000" : {
+            "name" : "SliceOffset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "nsl*uint32",
+            "length" : "8*NSL",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+        "060e2b34010101040404040201000000" : {
+            "name" : "Stream Offset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+        "060e2b34010101040404040202000000" : {
+            "name" : "Flags",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "EditUnitFlag",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+        "060e2b34010101040404040204000000" : {
+            "name" : "Key-Frame Offset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "int8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+        "060e2b34010101040404040203000000" : {
+            "name" : "Temporal Offset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "int8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Index Entry Array"
+        },
+
+        "060e2b34010101040404040103000000" : {
+            "name" : "Element Delta",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Delta Entry Array"
+        },
+        "060e2b34010101040404040102000000" : {
+            "name" : "Slice",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Delta Entry Array"
+        },
+        "060e2b34010101040404040104000000" : {
+            "name" : "PosTableIndex",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "int8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Delta Entry Array"
+        },
+
+        "060e2b340101010a0406020500000000" : {
+            "name" : "VBEByteCount",
+            "localtag" : "3F10",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b340101010a0406020400000000" : {
+            "name" : "ExtStartOffset",
+            "localtag" : "3F0F",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b34010101050404040205000000" : {
+            "name" : "Index Entry Array",
+            "localtag" : "3F0A",
+            "info" : "UL Local Tag",
+            "type" : "array:indexentry",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+			"format": "index_entry_array"
+        },
+        "060e2b34010101050404040106000000" : {
+            "name" : "Delta Entry Array",
+            "localtag" : "3F09",
+            "info" : "UL Local Tag",
+            "type" : "array:deltaentry",
+            "length" : "variable",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "delta_entry_array"
+        },
+        "060e2b34010101050404040107000000" : {
+            "name" : "PosTableCount",
+            "localtag" : "3F0E",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b34010101040404040101000000" : {
+            "name" : "Slice Count",
+            "localtag" : "3F08",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b34010101040406020100000000" : {
+            "name" : "Edit Unit Byte Count",
+            "localtag" : "3F05",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b34010101050702020101020000" : {
+            "name" : "Index Duration",
+            "localtag" : "3F0D",
+            "info" : "UL Local Tag",
+            "type" : "Length",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b340101010507020103010a0000" : {
+            "name" : "Index Start Position",
+            "localtag" : "3F0C",
+            "info" : "UL Local Tag",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "to_int"
+        },
+        "060e2b34010101050530040600000000" : {
+            "name" : "Index Edit Rate",
+            "localtag" : "3F0B",
+            "info" : "UL Local Tag",
+            "type" : "rational",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Index Table Segment",
+            "format": "edit_rate"
+        },
+
+        "060e2b34010101050103060300000000" : {
+            "name" : "UID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "AUID",
+            "length" : "16",
+            "resource" : "SMPTE 377-1-2011 - Local Tag Entry"
+        },
+        "060e2b34010101050103060200000000" : {
+            "name" : "Local Tag",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - Local Tag Entry"
+        },
+
+        "060e2b34010101050601010715000000" : {
+            "name" : "Local Tag Entry Batch",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "array:localtag+ul",
+            "length" : "8+18*n",
+            "resource" : "SMPTE 377-1-2011 - Primer Pack"
+        },
+
+        "060e2b34010101040608010201030000" : {
+            "name" : "BodyOffset",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040406090200000000" : {
+            "name" : "IndexByteCount",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040406090100000000" : {
+            "name" : "HeaderByteCount",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040610100501000000" : {
+            "name" : "FooterPartition",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040610100201000000" : {
+            "name" : "PreviousPartition",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040610100301000000" : {
+            "name" : "ThisPartition",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint64",
+            "length" : "8",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101050301020109000000" : {
+            "name" : "KAGSize",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040301020107000000" : {
+            "name" : "Minor Version",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+        "060e2b34010101040301020106000000" : {
+            "name" : "Major Version",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 377-1-2011 - Partition Pack"
+        },
+
+        "060e2b34010101..0301020601010308" : {
+            "name" : "Mono Source Track ID",
+            "localtag" : "1104",
+            "info" : "UL Local Tag",
+            "type" : "array:uint32",
+            "length" : "8+4*n",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Optional properties",
+            "format": "batch_uint32"
+        },
+        "060e2b34010101..0301020601010307" : {
+            "name" : "Channel IDs",
+            "localtag" : "1103",
+            "info" : "UL Local Tag",
+            "type" : "array:uint32",
+            "length" : "8+4*n",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Optional properties",
+            "format": "batch_uint32"
+        },
+        "060e2b34010101..0407040000000000" : {
+            "name" : "Chunk Data",
+            "localtag" : "4F03",
+            "info" : "UL Local Tag",
+            "type" : "stream",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Unknown Chunk Set",
+            "format": "unknown"
+        },
+        "060e2b34010101..0406090300000000" : {
+            "name" : "Chunk Length",
+            "localtag" : "4F02",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Unknown Chunk Set",
+            "format": "to_int"
+        },
+        "060e2b34010101..0406090200000000" : {
+            "name" : "Chunk ID",
+            "localtag" : "4F01",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Unknown Chunk Set",
+            "format": "to_int"
+        },
+
+        "060e2b34010101..06010104060f0000" : {
+            "name" : "Unknown BWF Chunks",
+            "localtag" : "3D33",
+            "info" : "UL Local Tag",
+            "type" : "array:UUID?",
+            "length" : "8+16*n",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "unknown"
+        },
+        "060e2b34010101..0402050208010000" : {
+            "name" : "Quality Cue Sheet",
+            "localtag" : "3D28",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050207010000" : {
+            "name" : "Quality Operator Comment",
+            "localtag" : "3D27",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050206010000" : {
+            "name" : "Quality Quality Parameter",
+            "localtag" : "3D26",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050205010000" : {
+            "name" : "Quality End Of Modulation",
+            "localtag" : "3D25",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050204010000" : {
+            "name" : "Quality Quality Event",
+            "localtag" : "3D24",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050203010000" : {
+            "name" : "Quality Start Of Modulation",
+            "localtag" : "3D23",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402050202010000" : {
+            "name" : "Quality Basic Data",
+            "localtag" : "3D22",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+        "060e2b34010101..0402030206000000" : {
+            "name" : "Quality File Security Wave",
+            "localtag" : "3D16",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402030205000000" : {
+            "name" : "Quality File Security Report",
+            "localtag" : "3D15",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402050201010000" : {
+            "name" : "Bext Coding History",
+            "localtag" : "3D21",
+            "info" : "UL Local Tag",
+            "type" : "string:UTF-16",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Physical Descriptor",
+            "format": "to_string"
+        },
+
+        "060e2b34010101..0402050108000000" : {
+            "name" : "SMPTE 337M Data Stream Number",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050107000000" : {
+            "name" : "Linked Timecode Track ID",
+            "localtag" : "dynamic",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050105000000" : {
+            "name" : "Fixed User Data",
+            "localtag" : "3D13",
+            "info" : "UL Local Tag",
+            "type" : "array:bytes",
+            "length" : "8+n*24",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050104000000" : {
+            "name" : "User Data Mode",
+            "localtag" : "3D12",
+            "info" : "UL Local Tag",
+            "type" : "array:uint8",
+            "length" : "8+N*1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050103000000" : {
+            "name" : "Fixed Channel Status Data",
+            "localtag" : "3D11",
+            "info" : "UL Local Tag",
+            "type" : "array:bytes",
+            "length" : "8+N*24",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050102000000" : {
+            "name" : "Channel Status Mode",
+            "localtag" : "3D10",
+            "info" : "UL Local Tag",
+            "type" : "array:uint8",
+            "length" : "8+N*1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050101000000" : {
+            "name" : "Auxiliary Bits Mode",
+            "localtag" : "3D08",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402030203000000" : {
+            "name" : "Block Start Offset",
+            "localtag" : "3D0F",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+        "060e2b34010101..0402050106000000" : {
+            "name" : "Emphasis",
+            "localtag" : "3D0D",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - AES3 Audio Essence Descriptor"
+        },
+
+
+        "060e2b34010101..040203010e000000" : {
+            "name" : "Peak Envelope Data",
+            "localtag" : "3D31",
+            "info" : "UL Local Tag",
+            "type" : "stream",
+            "length" : "variable",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "unknown"
+        },
+        "060e2b34010101..040203010d000000" : {
+            "name" : "Peak Envelope Timestamp",
+            "localtag" : "3D30",
+            "info" : "UL Local Tag",
+            "type" : "Timestamp",
+            "length" : "8",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "timestamp"
+        },
+        "060e2b34010101..040203010c000000" : {
+            "name" : "Peak Of Peaks Position",
+            "localtag" : "3D2F",
+            "info" : "UL Local Tag",
+            "type" : "Position",
+            "length" : "8",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..040203010b000000" : {
+            "name" : "Peak Frames",
+            "localtag" : "3D2E",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..040203010a000000" : {
+            "name" : "Peak Channels",
+            "localtag" : "3D2D",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402030109000000" : {
+            "name" : "Peak Envelope Block Size",
+            "localtag" : "3D2C",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402030108000000" : {
+            "name" : "Points Per Peak Value",
+            "localtag" : "3D2B",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402030107000000" : {
+            "name" : "Peak Envelope Format",
+            "localtag" : "3D2A",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+        "060e2b34010101..0402030106000000" : {
+            "name" : "Peak Envelope Version",
+            "localtag" : "3D29",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+
+		"060e2b34010101070402010105000000" : {
+            "name" : "Channel Assignment",
+            "localtag" : "3D32",
+            "info" : "UL Local Tag",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format" : "uuid_ul"
+		},
+        "060e2b34010101..0402010105000000" : {
+            "name" : "Channel Assignment",
+            "localtag" : "3D32",
+            "info" : "UL Local Tag",
+            "type" : "UL",
+            "length" : "16",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format" : "uuid_ul"
+        },
+
+		"060e2b34010101050402030305000000" : {
+            "name" : "Average Bytes Per Second",
+            "localtag" : "3D09",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+		},
+        "060e2b34010101..0402030305000000" : {
+            "name" : "Average Bytes Per Second",
+            "localtag" : "3D09",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+
+		"060e2b34010101050402030202000000" : {
+            "name" : "Sequence Offset",
+            "localtag" : "3D0B",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+		},
+        "060e2b34010101..0402030202000000" : {
+            "name" : "Sequence Offset",
+            "localtag" : "3D0B",
+            "info" : "UL Local Tag",
+            "type" : "uint8",
+            "length" : "1",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+            "format": "to_int"
+        },
+
+		"060e2b34010101050402030201000000" : {
+            "name" : "Block Align",
+			"localtag" : "3D0A",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+			"format": "to_int"
+		},
+        "060e2b34010101..0402030201000000" : {
+            "name" : "Block Align",
+			"localtag" : "3D0A",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 382M-2007 - MXF Mapping AES3 - Wave Audio Essence Descriptor",
+			"format": "to_int"
+        },
+
+        "====================== Local Tag Dynamic : UL ===================" : {},
+
+        "060e2b340101010a................" : {
+            "name" : "Local Tag ?"
+        },
+        "060e2b340101010a0601010406100000" : {
+            "name" : "Sub-Descriptors",
+            "info" : "UL Local Tag",
+            "format": "batch_ul"
+        },
+        "060e2b340101010a0401060301000000" : {
+            "name" : "Rsiz - Capabilities Code",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060302000000" : {
+            "name" : "Xsiz - Width Reference Grid",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060303000000" : {
+            "name" : "Ysiz - Height Reference Grid",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060304000000" : {
+            "name" : "XOsiz - Horizontal Offset Xsiz",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060305000000" : {
+            "name" : "YOsiz - Vertical Offset Ysiz",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060306000000" : {
+            "name" : "XTsiz - Width Reference Tile",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060307000000" : {
+            "name" : "YTsiz - Height Reference Tile",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060308000000" : {
+            "name" : "XTOsiz - Horizontal Offset Tile",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a0401060309000000" : {
+            "name" : "YTOsiz - Vertical Offset Tile",
+            "info" : "UL Local Tag",
+            "type" : "uint32",
+            "length" : "4",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a040106030a000000" : {
+            "name" : "Csiz - Number Components",
+            "info" : "UL Local Tag",
+            "type" : "uint16",
+            "length" : "2",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "to_int"
+        },
+        "060e2b340101010a040106030b000000" : {
+            "name" : "Picture Component Sizing",
+            "info" : "UL Local Tag",
+            "type" : "array:int",
+            "length" : "8+3*n",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "picture_component_sizing"
+        },
+        "060e2b340101010a040106030c000000" : {
+            "name" : "Coding Style Default",
+            "info" : "UL Local Tag",
+            "length" : "variable",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "coding_style"
+        },
+        "060e2b340101010a040106030d000000" : {
+            "name" : "Quantization Default",
+            "info" : "UL Local Tag",
+            "length" : "variable",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13",
+            "format": "quantization"
+        },
+        "060e2b340101010e040106030e000000" : {
+            "name" : "J2CLayout",
+            "info" : "UL Local Tag",
+            "length" : "variable",
+            "resource" : "SMPTE 422-2014 - Mapping JPEG2000 Codestreams into the MXF Generic Container - JPEG2000 Picture Sub-Descriptor - P13"
+        },
+        "060e2b340101010aD80cd90cdA0c0000" : {
+            "name" : "Pixel Layout",
+            "info" : "UL Local Tag"
+        },
+
+
+        "060e2b34010101090209030102000000" : {
+            "name" : "Cryptographic Key ID",
+            "info" : "UL Local Tag",
+            "format": "uuid"
+        },
+        "060e2b34010101090209030201000000" : {
+            "name" : "Message Integrity Code Algorithm",
+            "info" : "UL Local Tag",
+            "format": "uuid_ul"
+        },
+        "060e2b34010101090209030101000000" : {
+            "name" : "Cipher Algorithm",
+            "info" : "UL Local Tag",
+            "format": "uuid_ul"
+        },
+        "060e2b34010101090601010202000000" : {
+            "name" : "Source Essence Container Label",
+            "info" : "UL Local Tag",
+            "format": "uuid_ul"
+        },
+        "060e2b34010101090101151100000000" : {
+            "name" : "Context ID",
+            "info" : "UL Local Tag",
+            "format": "uuid"
+        },
+        "060e2b340101010906010104020d0000" : {
+            "name" : "Context SR",
+            "info" : "UL Local Tag",
+            "format": "uuid"
+        },
+
+
+
+        "====================== Miscellaneous (not ordered) ======================": {},
+
+        "060e2b34040101..0d010101........" : {
+            "name" : "Descriptive Metadata Plug-Ins (T21) *"
+        },
+        "060e2b34040101..0d010101..00" : {
+            "name" : "Operational Pattern 1A *"
+        },
+        "060e2b34040101..0d010301........" : {
+            "name" : "Essence Container *"
+        },
+        "060e2b34040101..0d010301020d0000" : {
+            "name" : "Essence Container VBI Data *"
+        },
+        "060e2b34040101..0d010301020e0000" : {
+            "name" : "Essence Container ANC Packet *"
+        },
+        "060e2b34040101..0d01030117010201" : {
+            "name" : "Essence Container ANC Frame *"
+        },
+        "060e2b34040101..0d01030103......" : {
+            "name" : "Essence Identification Label *",
+			"resource" : "SMPTE.ST.0410-2008 - MXF - Generic Stream Partition - Page 14 - Table 7"
+        },
+        "060e2b34040101..0d010501........" : {
+            "name" : "Metadata Stream Application *",
+			"resource" : "SMPTE.ST.0410-2008 - MXF - Generic Stream Partition - Page 15 - Table 8"
+        },
+        "060e2b34010201..0d010301........" : {
+            "name" : "Undefined Essence *"
+        },
+        "060e2b34010201..0d01030115..0c.." : {
+            "name" : "Frame Wrapped VC-3 Picture Element *"
+        },
+        "060e2b34010201..0d01030115..0d.." : {
+            "name" : "Clip Wrapped VC-3 Picture Element *"
+        },
+
+        "060e2b34010201..0d01030117......" : {
+            "name" : "Data Essence *"
+        },
+        "060e2b34010201..0d01030102......" : {
+            "name" : "MXF Generic Container *"
+        },
+        "060e2b34010201..0d01030101......" : {
+            "name" : "Experimental MXF Generic Container *"
+        },
+        "060e2b34010201..0d01030102110100" : {
+            "name" : "Essence Container VC3 Frame Wrapped *"
+        },
+        "060e2b34010201..0d01030102110200" : {
+            "name" : "Essence Container VC3 Clip Wrapped *"
+        },
+        "060e2b3402..01..0d01030115..0a.." : {
+            "name" : "VC1 Frame Wrapped Picture Element *"
+        },
+        "060e2b3402..01..0d01030115..0b.." : {
+            "name" : "VC1 Clip Wrapped Picture Element *"
+        },
+        "060e2b34040101..0d01030102120100" : {
+            "name" : "VC1 Frame Wrapped Picture Element *"
+        },
+        "060e2b34040101..0d01030102120200" : {
+            "name" : "VC1 Clip Wrapped Picture Element *"
+        },
+        "060e2b24040101..0401020204..0000" : {
+            "name" : "VC1 Picture Essence Compression *"
+        },
+        "060e2b34040115..05.............." : {
+            "name" : "MXF AVC Stream Frame Wrapped *"
+        },
+        "060e2b34040115..06.............." : {
+            "name" : "MXF AVC Stream Clip Wrapped *"
+        },
+        "060e2b3404010207................" : {
+            "name" : "MXF MPEG PES *"
+        },
+        "060e2b34025301010d01010101012800" : {
+            "name" : "CDCI Essence Descriptor",
+            "resource" : "SMPTE.ST.0377M - MXF - File Format Specification - Page 44 - Table 14",
+			"parser" : "klv"
+        },
+
+
+		"060e2b34025301010d01040104010100" : {
+			"name": "Text-based Descriptive Metadata Framework",
+			"resource" : "SMPTE RP 2057-2011 - Text-based metadata carriage over MXF - Table 3",
+			"parser" : "klv"
+		},
+		"060e2b34025301010d01040104020100" : {
+			"name" : "Text-Based Object",
+			"resource" : "SMPTE RP 2057-2011 - Text-based metadata carriage over MXF - Text-based Object - Table 7",
+			"parser" : "klv"
+		},
+		"060e2b340101010d0103040800000000" : {
+			"name" : "Generic Stream ID",
+            "info" : "UL Local Tag",
+            "format": "to_int"
+		},
+		"060e2b340101010d0302010603020000" : {
+			"name" : "Text Data Description",
+			"info" : "UL Local Tag",
+			"format" : "to_string"
+		},
+		"060e2b340401010d0d010301021d0101" : {
+			"name" : "IMF IAB Essence Clip Wrapped Container",
+			"info" : "Label",
+			"resource" : "SMPTE ST 2067-201"
+		},
+		"060e2b340401010d0302022100000000" : {
+			"name" : "IAB Soundfield",
+			"info" : "Label",
+			"resource" : "SMPTE ST 2067-201"
+		},
+		"060e2b340101010d0301010202140000" : {
+			"name" : "RFC 5646 Text Language Code",
+			"info" : "UL Local Tag",
+			"resource": "SMPTE RP 2057",
+			"format" : "to_string"
+		},
+		"060e2b340101010d0409020200000000" : {
+			"name" : "Text MIME Media Type",
+			"info" : "UL Local Tag",
+			"resource": "SMPTE RP 2057",
+			"format" : "to_string"
+		},
+		"060e2b340101010d0406080600000000" : {
+			"name" : "Text-Based Metadata Payload Scheme Id",
+			"info" : "UL Local Tag",
+			"resource": "SMPTE RP 2057",
+			"format" : "uuid"
+		},
+		"060e2b340101010d0601010405410100" : {
+			"name" : "Text-Based Object Id",
+			"info" : "UL Local Tag",
+			"resource": "SMPTE RP 2057",
+			"format" : "uuid"
+		},
+		"060e2b340101010e0102021002040000" : {
+			"name" : "Conforms To Specifications",
+			"info" : "UL Local Tag",
+			"resource" : "SMPTE ST 2067-201",
+			"format": "batch_ul"
+		},
+		"060e2b340101010e0402010106000000" : {
+			"name" : "Reference Image Edit Rate",
+			"info" : "UL Local Tag",
+			"resource" : "SMPTE 2067-2",
+			"format" : "edit_rate"
+		},
+		"060e2b340101010e0402010107000000" : {
+			"name" : "Reference Audio Alignment Level in dBFS",
+			"info" : "UL Local Tag",
+			"resource" : "SMPTE 2067-2",
+			"format" : "to_int"
+		},
+
+
+
+
+        "060e2b340101010c0d0105....000000" : {
+            "name" : "Generic Stream Data Element *",
+			"resource" : "SMPTE.ST.0410-2008 - MXF - Generic Stream Partition - Page 9 - Table 3"
+        },
+        "060E2B34010101..0D0105....000000" : {
+            "name" : "Generic Stream Data Element *"
+        },
+		"060e2b340101010c0601010403060000" : {
+			"name" : "Generic Payloads (Batch ULs)",
+			"resource" : "SMPTE.ST.0410-2008 - MXF - Generic Stream Partition - Page 13 - Table 6"
+		},
+
+
+
+
+
+        "060e2b340401010d03020120....0000" : {
+            "name" : "IMF AudioChannel *"
+        },
+        "060e2b340401010d03020220....0000" : {
+            "name" : "IMF Soundfield Group *"
+        },
+        "060e2b340401010d03020320....0000" : {
+            "name" : "IMF Group of Soundfield Groups *"
+        },
+        "060e2b34025301010d01010101015b00" : {
+            "name" : "VBI Data Descriptor*"
+        },
+        "060e2b34025301010d01010101015c00" : {
+            "name" : "ANC Packets Descriptor*"
+        },
+        "060a2b340101010501010f2013000000" : {
+            "name" : "IMF Stuff TrackFile*"
+        },
+        "060e2b340401010304010202012010.." : {
+            "name" : "IMF Picture Essence Coding - MPEG-4 *",
+            "resource" : "SMPTE.ST.2067-30.2013 - IMF - Application #3 - Page 12"
+        },
+		"060e2b340401010d0401010103080000" : {
+			"name" : "IMF - XYZ Color Primaries",
+			"resource" : "SMPTE.ST.2067-40.2016 - IMF - Application #4 Cinema Mezzanine"
+		},
+        "060e2b340401010d0d010301021b0100" : {
+            "name" : "MXF Generic Container VC5 Frame Wrapped"
+        },
+        "060e2b340401010d0d010301021b0200" : {
+            "name" : "MXF Generic Container VC5 Clip Wrapped"
+        },
+        "060e2b340401010d0d010301021b0300" : {
+            "name" : "MXF Generic Container VC5 Custom Wrapped"
+        },
+        "060e2b34010201010d01030115..14.." : {
+            "name" : "Frame Wrapped VC-5 Picture Element *"
+        },
+        "060e2b34010201010d01030115..15.." : {
+            "name" : "Clip Wrapped VC-5 Picture Element *"
+        },
+        "060e2b34010201010d01030115..16.." : {
+            "name" : "Custom Wrapped VC-5 Picture Element *"
+        },
+        "060e2b340401010d0401020203050301" : {
+            "name" : "VC-5 Part-3 RGB(A) Picture"
+        },
+        "060e2b340401010d0401020203050302" : {
+            "name" : "VC-5 Part-3 YCC(A) Picture"
+        },
+        "060e2b340401010d0401020203050303" : {
+            "name" : "VC-5 Part-3 Bayer Picture"
+        },
+        "060e2b340401010d0401020203050402" : {
+            "name" : "VC-5 Part-4 YCC(A) Picture"
+        },
+        "060e2b34027f01010531000000000000" : {
+            "name" : "[2094] Color Transform Sets"
+        },
+        "060e2b34027f01010531010000000000" : {
+            "name" : "[2094] DMC VT Generic Sets"
+        },
+        "060e2b34027f01010531010100000000" : {
+            "name" : "[2094] DMC VT Generic Sets1"
+        },
+        "060e2b34027f01010531020000000000" : {
+            "name" : "[2094] DMC VT Application Sets"
+        },
+        "060e2b34027f01010531020100000000" : {
+            "name" : "[2094] DMC VT App1 Set"
+        },
+        "060e2b34027f01010531020200000000" : {
+            "name" : "[2094] DMC VT App2 Set"
+        },
+        "060e2b34027f01010531020300000000" : {
+            "name" : "[2094] DMC VT App3 Set"
+        },
+        "060e2b34027f01010531020400000000" : {
+            "name" : "[2094] DMC VT App4 Set"
+        },
+        "060e2b34010201010d01030117..0e.." : {
+            "name" : "[2094] Frame Wrapped DMC VT Element *"
+        },
+        "060e2b34010201010d010301021a0000" : {
+            "name" : "[2094] MXF-Generic Container DMC VT Data"
+        },
+        "060e2b34010201010d010301021a0100" : {
+            "name" : "[2094] MXF-Generic Container Frame Wrapped DMC VT Data"
+        },
+        "060e2b340401010d0404010202000000" : {
+            "name" : "[2094] DMC VT Data Coding"
+        },
+        "060e2b340401010d0404010202010000" : {
+            "name" : "[2094] DMC VT Application 1"
+        },
+        "060e2b340401010d0404010202020000" : {
+            "name" : "[2094] DMC VT Application 2"
+        },
+        "060e2b340401010d0404010202030000" : {
+            "name" : "[2094] DMC VT Application 3"
+        },
+        "060e2b340401010d0404010202040000" : {
+            "name" : "[2094] DMC VT Application 4"
+        },
+        "060e2b34025301010d01010101017500" : {
+            "name" : "[2094] DMC VT Target Sub-Descriptor"
+        },
+        "060e2b340101010e0531000000000000" : {
+            "name" : "[2094] Color Transform Information"
+        },
+        "060e2b340101010e0531010000000000" : {
+            "name" : "[2094] DMC VT Essence Items"
+        },
+        "060e2b340101010e0531020000000000" : {
+            "name" : "[2094] DMC VT Sub-Descriptor Items"
+        },
+        "060e2b340101010e053101..00000000" : {
+            "name" : "[2094] DMC VT Symbol Local UL",
+            "reference" : "SMPTE 2094 (?)"
+        },
+        "060e2b340101010e053102..00000000" : {
+            "name" : "[2094] DMC VT Symbol Local UL",
+            "refere": "SMPTE 2094 (?)"
+        },
+        "060e2b340102010d0f01030101010100" : {
+            "name" : "ARRIRAW Image"
+        },
+        "060e2b340205010d0e17000000a10101" : {
+            "name" : "ARRIRAW LUT"
+        },
+        "060e2b340205010d0e17000000110101" : {
+            "name" : "ARRIRAW Metadata Block"
+        },
+        "060e2b34024301010d01030104010302" : {
+            "name" : "ARRIRAW Dynamic Metadata"
+        },
+        "060e2b340205010d0e17............" : {
+            "name" : "ARRIRAW Unknown *"
+        },
+        "060e2b34010201010d01030115..17.." : {
+            "name" : "ProRes Picture Element - Frame Wrapped *"
+        },
+        "060e2b340401010d0d010301021c0100" : {
+            "name" : "ProRes MXF-Generic Container Frame Wrapped Essence Container ProRes Picture"
+        },
+        "060e2b340401010d0401020203060100" : {
+            "name" : "ProRes Picture Coding 422 Proxy Profile"
+        },
+        "060e2b340401010d0401020203060200" : {
+            "name" : "ProRes Picture Coding 422-LT Profile"
+        },
+        "060e2b340401010d0401020203060300" : {
+            "name" : "ProRes Picture Coding 422 Profile"
+        },
+        "060e2b340401010d0401020203060400" : {
+            "name" : "ProRes Picture Coding 422-HQ Profile"
+        },
+        "060e2b340401010d0401020203060500" : {
+            "name" : "ProRes Picture Coding 4444 Profile"
+        },
+        "060e2b340401010d0401020203060600" : {
+            "name" : "ProRes Picture Coding 4444-XQ Profile"
+        },
+        "060e2b34025301010d01010101015100" : {
+            "name" : "MPEG2 Video Descriptor",
+			"parser": "klv"
+        },
+        "060e2b34010201050e09050201..01.." : {
+            "name" : "Frame Wrapped ISXD Data"
+        },
+        "060e2b34040101050e09060701010103" : {
+            "name" : "Frame Wrapped ISXD Container"
+        },
+        "060e2b34025301050e09050200000000" : {
+            "name" : "ISXD Data Essence Descriptor"
+        },
+        "060e2b34010101050e09040000000000" : {
+            "name" : "ISXD Namespace URI"
+        },
+        "060e2b34040101050e09060600000000" : {
+            "name" : "ISXD UTF-8 Text Data Essence Coding"
+        },
+        "060e2b340401010d0d0f030201010000" : {
+            "name" : "SMPTE DCP2.1 Sign Language Video Stream"
+        },
+        "060e2b340401010a0101020101000000" : {
+            "name" : "Unknown File Format ?"
+        },
+
+
+        "060e2b34010101020601010406100000" : {
+            "name" : "Descriptors & Sub-Descriptors (Interop)",
+            "type" : "array:UUID",
+            "length" : "8+16*n",
+            "format": "batch_ul"
+        },
+        "060e2b34010101090601010406100000" : {
+            "name" : "Descriptors & Sub-Descriptors (SMPTE)",
+            "type" : "array:UUID",
+            "length" : "8+16*n",
+            "format": "batch_ul"
+        },
+
+
+		"060e2b34040101010103020101000000" : {
+			"name" : "Timecode Track (with inactive user bits)",
+			"resource" : "SMPTE-12M Timecode Track (https://registry.smpte-ra.org/view/published/labels_view.html)"
+		},
+		"060e2b34040101010103020201000000" : {
+			"name" : "Picture Essence Track",
+			"resource" : "https://registry.smpte-ra.org/view/published/labels_view.html"
+		},
+		"060e2b34040101010103020202000000" : {
+			"name" : "Sound Essence Track"
+		},
+		"060e2b34040101010103020203000000" : {
+			"name" : "Data Essence Track"
+		},
+		"060e2b34040101010103020110000000" : {
+			"name" : "Descriptive Metadata Track",
+			"resource" : "https://registry.smpte-ra.org/view/published/labels_view.html"
+		}
+
+    },
+
+    "PartitionStatus": {
+        "1": "Open and Incomplete (01h)",
+        "2": "Closed and Incomplete (02h)",
+        "3": "Open and Complete (03h)",
+        "4": "Closed and Complete (04h)"
+    },
+
+    "PictureEssenceCoding": {
+
+        "060e2b340401010a0401020101010101": "Cb,Y,Cr - Interleaved - 4:4:4 - 8-bit component",
+        "060e2b340401010a0401020101020101": "Cb,Y,Cr,Y - Interleaved - 4:2:2 - 8-bit component",
+        "060e2b340401010a0401020101020102": "Y,Cb,Y,Cr - Interleaved - 4:2:2 - 8-bit component",
+        "060e2b340401010a0401020101020103": "Y,Cb,Cr - Planar - 4:2:2 - 8-bit component",
+        "060e2b340401010a0401020101020201": "Cb,Y,Cr,Y - Interleaved - 4:2:2 - 10-bit component (32-bit with pad 2-bit)",
+        "060e2b340401010a0401020101020202": "Y,Cb,Cr - Planar - 4:2:2 - 10-bit component (32-bit with pad 2-bit)",
+        "060e2b340401010a0401020101020301": "Cb,Y,Cr,Y - Interleaved - 4:2:2 - 12-bit component (48-bit)",
+        "060e2b340401010a0401020101020401": "Cb,Y,Cr,Y - Interleaved - 4:2:2 - 16-bit component (64-bit)",
+        "060e2b340401010a0401020101030102": "Y,Cb,Cr/YV12 - Planar - 4:2:0 - 8-bit component",
+
+        "060e2b34040101090401............": "Picture Essence",
+        "060e2b3404010109040102..........": "Picture Essence - Picture Coding Characteristics",
+        "060e2b340401010904010202........": "Picture Essence - Compressed Picture",
+        "060e2b34040101090401020203......": "Picture Essence - Compressed Picture - Individual Picture",
+        "060e2b3404010109040102020301....": "Picture Essence - Compressed Picture - Individual Picture - JPEG2000",
+        "060e2b340401010904010202030101..": "Picture Essence - Compressed Picture - Individual Picture - JPEG2000 - Variant",
+        "060e2b34040101090401020203010103": "JPEG 2000 2K Digital Cinema Profile",
+        "060e2b34040101090401020203010104": "JPEG 2000 4K Digital Cinema Profile",
+        "060e2b340401010a040102020301017f": "JPEG 2000 Undefined Digital Cinema Profile",
+
+        "060e2b340401010d0401020203010200" : "2K IMF Single Tile Lossy Profile (ISO/IEC 15444-1:2004 AMD8",
+        "060e2b340401010d0401020203010201" : "2K IMF Single Tile Lossy Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010202" : "2K IMF Single Tile Lossy Profile (Mainlevel 1 Sublevel 0)",
+        "060e2b340401010d0401020203010203" : "2K IMF Single Tile Lossy Profile (Mainlevel 1 Sublevel 1)",
+        "060e2b340401010d0401020203010204" : "2K IMF Single Tile Lossy Profile (Mainlevel 2 Sublevel 0)",
+        "060e2b340401010d0401020203010205" : "2K IMF Single Tile Lossy Profile (Mainlevel 2 Sublevel 1)",
+        "060e2b340401010d0401020203010206" : "2K IMF Single Tile Lossy Profile (Mainlevel 3 Sublevel 0)",
+        "060e2b340401010d0401020203010207" : "2K IMF Single Tile Lossy Profile (Mainlevel 3 Sublevel 1)",
+        "060e2b340401010d0401020203010208" : "2K IMF Single Tile Lossy Profile (Mainlevel 4 Sublevel 0)",
+        "060e2b340401010d0401020203010209" : "2K IMF Single Tile Lossy Profile (Mainlevel 4 Sublevel 1)",
+        "060e2b340401010d040102020301020a" : "2K IMF Single Tile Lossy Profile (Mainlevel 4 Sublevel 2)",
+        "060e2b340401010d040102020301020b" : "2K IMF Single Tile Lossy Profile (Mainlevel 5 Sublevel 0)",
+        "060e2b340401010d040102020301020c" : "2K IMF Single Tile Lossy Profile (Mainlevel 5 Sublevel 1)",
+        "060e2b340401010d040102020301020d" : "2K IMF Single Tile Lossy Profile (Mainlevel 5 Sublevel 2)",
+        "060e2b340401010d040102020301020e" : "2K IMF Single Tile Lossy Profile (Mainlevel 5 Sublevel 3)",
+        "060e2b340401010d040102020301020f" : "2K IMF Single Tile Lossy Profile (Mainlevel 6 Sublevel 0)",
+        "060e2b340401010d0401020203010210" : "2K IMF Single Tile Lossy Profile (Mainlevel 6 Sublevel 1)",
+        "060e2b340401010d0401020203010211" : "2K IMF Single Tile Lossy Profile (Mainlevel 6 Sublevel 2)",
+        "060e2b340401010d0401020203010212" : "2K IMF Single Tile Lossy Profile (Mainlevel 6 Sublevel 3)",
+        "060e2b340401010d0401020203010213" : "2K IMF Single Tile Lossy Profile (Mainlevel 6 Sublevel 4)",
+        "060e2b340401010d0401020203010214" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 0)",
+        "060e2b340401010d0401020203010215" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 1)",
+        "060e2b340401010d0401020203010216" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 2)",
+        "060e2b340401010d0401020203010217" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 3)",
+        "060e2b340401010d0401020203010218" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 4)",
+        "060e2b340401010d0401020203010219" : "2K IMF Single Tile Lossy Profile (Mainlevel 7 Sublevel 5)",
+        "060e2b340401010d040102020301021a" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 0)",
+        "060e2b340401010d040102020301021b" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 1)",
+        "060e2b340401010d040102020301021c" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 2)",
+        "060e2b340401010d040102020301021d" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 3)",
+        "060e2b340401010d040102020301021e" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 4)",
+        "060e2b340401010d040102020301021f" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 5)",
+        "060e2b340401010d0401020203010220" : "2K IMF Single Tile Lossy Profile (Mainlevel 8 Sublevel 6)",
+        "060e2b340401010d0401020203010221" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 0)",
+        "060e2b340401010d0401020203010222" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 1)",
+        "060e2b340401010d0401020203010223" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 2)",
+        "060e2b340401010d0401020203010224" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 3)",
+        "060e2b340401010d0401020203010225" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 4)",
+        "060e2b340401010d0401020203010226" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 5)",
+        "060e2b340401010d0401020203010227" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 6)",
+        "060e2b340401010d0401020203010228" : "2K IMF Single Tile Lossy Profile (Mainlevel 9 Sublevel 7)",
+        "060e2b340401010d0401020203010229" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 0)",
+        "060e2b340401010d040102020301022a" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 1)",
+        "060e2b340401010d040102020301022b" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 2)",
+        "060e2b340401010d040102020301022c" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 3)",
+        "060e2b340401010d040102020301022d" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 4)",
+        "060e2b340401010d040102020301022e" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 5)",
+        "060e2b340401010d040102020301022f" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 6)",
+        "060e2b340401010d0401020203010230" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 7)",
+        "060e2b340401010d0401020203010231" : "2K IMF Single Tile Lossy Profile (Mainlevel 10 Sublevel 8)",
+        "060e2b340401010d0401020203010300" : "4K IMF Single Tile Lossy Profile (ISO/IEC 15444-1:2004 AMD8)",
+        "060e2b340401010d0401020203010301" : "4K IMF Single Tile Lossy Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010400" : "8K IMF Single Tile Lossy Profile (ISO/IEC 15444-1:2004 AMD8)",
+        "060e2b340401010d0401020203010401" : "8K IMF Single Tile Lossy Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010500" : "2K IMF Single/Multi-Tile Reversible Profile (ISO/IEC 15444-1:2004 AMD8)",
+        "060e2b340401010d0401020203010501" : "2K IMF Single/Multi-Tile Reversible Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010600" : "4K IMF Single/Multi-Tile Reversible Profile (ISO/IEC 15444-1:2004 AMD8)",
+        "060e2b340401010d0401020203010601" : "4K IMF Single/Multi-Tile Reversible Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010700" : "8K IMF Single/Multi-Tile Reversible Profile (ISO/IEC 15444-1:2004 AMD8)",
+        "060e2b340401010d0401020203010701" : "8K IMF Single/Multi-Tile Reversible Profile (Mainlevel 0 Sublevel 0)",
+        "060e2b340401010d0401020203010800" : "High-Throughput JPEG 2000 Picture Coding Scheme",
+        "060e2b340401010b0401020203020000" : "TIFF/EP Picture Coding Scheme",
+        "060e2b340401010d0401020203040000" : "ACES Picture Coding Schemes",
+
+        "060e2b340401010d0e16020203010103" : "HFR 2K",
+        "060e2b340401010d0e16020203010104" : "HFR 4K"
+
+    },
+
+    "FrameLayout": {
+        "0": "FULL_FRAME",
+        "1": "SEPARATE_FIELDS",
+        "2": "SINGLE_FIELD",
+        "3": "MIXED_FIELDS",
+        "4": "SEGMENTED_FRAME"
+    },
+	"RGBALayout": {
+		 "0": "Termination",
+		"00": "Termination",
+		"52": "R - Red component",
+		"47": "G - Green component",
+		"42": "B - Blue component",
+		"41": "A - Alpha component",
+		"72": "r - Red component (LSB)",
+		"67": "g - Green component (LSB)",
+		"62": "b - Blue component (LSB)",
+		"61": "a - Alpha component (LSB)",
+		"46": "F - Fill component",
+		"50": "P - Palette code",
+		"55": "U - Color Difference Sample (U, Cb, I, ..)",
+		"56": "V - Color Difference Sample (V, Cr, Q, ..)",
+		"57": "W - Composite Video",
+		"58": "X - Non co-sited luma component",
+		"59": "Y - Luma component",
+		"5A": "Z - Depth component (SMPTE ST 268)",
+		"75": "u - Color Difference Sample (U, Cb, I, ..) (LSB)",
+		"76": "v - Color Difference Sample (V, Cr, Q, ..) (LSB)",
+		"77": "w - Composite Video (LSBs)",
+		"78": "x - Non co-sited luma component (LSB)",
+		"79": "y - Luma component (LSBs)",
+		"7A": "z - Depth component (LSBs) (SMPTE 268)",
+		"d8": "X' - DCDM X color component (SMPTE 428-1 X’)",
+		"d9": "Y' - DCDM Y color component (SMPTE 428-1 Y’)",
+		"da": "Z' - DCDM Z color component (SMPTE 428-1 Z’)"
+	}
+
+}
