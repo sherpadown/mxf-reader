@@ -14,4 +14,4 @@ jobs:
       run: docker build -t mxf-reader:latest .
 
     - name: Test Docker image
-      run: docker run -v "$(pwd)/tests/assets:/assets" -it --rm mxf-reader:latest -f /assets/2D.mxf
+      run: docker run -v "$(pwd)/tests/assets:/assets" --rm mxf-reader:latest -f /assets/2D.mxf
