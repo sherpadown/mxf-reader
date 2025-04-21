@@ -625,7 +625,114 @@ Filename tests/assets/2D.mxf (57031 bytes)
  ║   Type                                                ║  Plaintext JPEG2000
  ║   Data                                                ║  ff4fff51002f00040000100000000870…8080808080808080808080808080ffd9
  ║   JPEG2000 Header                                     ║  └──────┘ found here
- ║   JPEG2000 Metadata                                   ║  (....)
+ ║   JPEG2000 Metadata (0)                               ║                                   Siz
+ ║   JPEG2000 Metadata (1)                               ║                                  lsiz = 47
+ ║   JPEG2000 Metadata (2)                               ║                                  rsiz = 4
+ ║   JPEG2000 Metadata (3)                               ║                                  xsiz = 4096
+ ║   JPEG2000 Metadata (4)                               ║                                  ysiz = 2160
+ ║   JPEG2000 Metadata (5)                               ║                                 xTsiz = 4096
+ ║   JPEG2000 Metadata (6)                               ║                                 yTsiz = 2160
+ ║   JPEG2000 Metadata (7)                               ║                         numberOfTiles = 1
+ ║   JPEG2000 Metadata (8)                               ║                                  csiz = 3
+ ║   JPEG2000 Metadata (9)                               ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (10)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (11)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (12)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (13)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (14)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (15)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (16)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (17)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (18)                              ║                                   Cod
+ ║   JPEG2000 Metadata (19)                              ║                                  lcod = 19
+ ║   JPEG2000 Metadata (20)                              ║                             precincts = 1
+ ║   JPEG2000 Metadata (21)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (22)                              ║                                layers = 1
+ ║   JPEG2000 Metadata (23)                              ║       multipleComponentTransformation = 1
+ ║   JPEG2000 Metadata (24)                              ║                                levels = 6
+ ║   JPEG2000 Metadata (25)                              ║                        codeBlockWidth = 32
+ ║   JPEG2000 Metadata (26)                              ║                       codeBlockHeight = 32
+ ║   JPEG2000 Metadata (27)                              ║                         precinctSizeX = 128
+ ║   JPEG2000 Metadata (28)                              ║                         precinctSizeY = 128
+ ║   JPEG2000 Metadata (29)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (30)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (31)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (32)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (33)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (34)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (35)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (36)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (37)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (38)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (39)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (40)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (41)                              ║                                   Qcd
+ ║   JPEG2000 Metadata (42)                              ║                                  lqcd = 41
+ ║   JPEG2000 Metadata (43)                              ║                                qStyle = 2
+ ║   JPEG2000 Metadata (44)                              ║                             guardBits = 2
+ ║   JPEG2000 Metadata (45)                              ║                                    mu = 1844
+ ║   JPEG2000 Metadata (46)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (47)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (48)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (49)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (50)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (51)                              ║                                    mu = 1710
+ ║   JPEG2000 Metadata (52)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (53)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (54)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (55)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (56)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (57)                              ║                                   Poc
+ ║   JPEG2000 Metadata (58)                              ║                                  lpoc = 16
+ ║   JPEG2000 Metadata (59)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (60)                              ║                                 repoc = 6
+ ║   JPEG2000 Metadata (61)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (62)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (63)                              ║                                 rspoc = 6
+ ║   JPEG2000 Metadata (64)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (65)                              ║                                 repoc = 7
+ ║   JPEG2000 Metadata (66)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (67)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (68)                              ║                                   Tlm
+ ║   JPEG2000 Metadata (69)                              ║                                   Com
+ ║   JPEG2000 Metadata (70)                              ║                                  lcom = 40
+ ║   JPEG2000 Metadata (71)                              ║                                  rcom = 1
+ ║   JPEG2000 Metadata (72)                              ║                             Tileparts
+ ║   JPEG2000 Metadata (73)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (74)                              ║                                   Sot
+ ║   JPEG2000 Metadata (75)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (76)                              ║                                  psot = 17377
+ ║   JPEG2000 Metadata (77)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (78)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (79)                              ║                                   Sot
+ ║   JPEG2000 Metadata (80)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (81)                              ║                                  psot = 5289
+ ║   JPEG2000 Metadata (82)                              ║                                 tpsot = 1
+ ║   JPEG2000 Metadata (83)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (84)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (85)                              ║                                   Sot
+ ║   JPEG2000 Metadata (86)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (87)                              ║                                  psot = 3247
+ ║   JPEG2000 Metadata (88)                              ║                                 tpsot = 2
+ ║   JPEG2000 Metadata (89)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (90)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (91)                              ║                                   Sot
+ ║   JPEG2000 Metadata (92)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (93)                              ║                                  psot = 11980
+ ║   JPEG2000 Metadata (94)                              ║                                 tpsot = 3
+ ║   JPEG2000 Metadata (95)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (96)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (97)                              ║                                   Sot
+ ║   JPEG2000 Metadata (98)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (99)                              ║                                  psot = 1593
+ ║   JPEG2000 Metadata (100)                             ║                                 tpsot = 4
+ ║   JPEG2000 Metadata (101)                             ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (102)                             ║                              Tilepart
+ ║   JPEG2000 Metadata (103)                             ║                                   Sot
+ ║   JPEG2000 Metadata (104)                             ║                                  lsot = 10
+ ║   JPEG2000 Metadata (105)                             ║                                  psot = 437
+ ║   JPEG2000 Metadata (106)                             ║                                 tpsot = 5
+ ║   JPEG2000 Metadata (107)                             ║                                 tnsot = 6
  ║   Resource [1]                                        ║  SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container
  ║   Resource [2]                                        ║  SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application
  ║   Resource [3]                                        ║  SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container
@@ -710,7 +817,114 @@ Filename tests/assets/2D.mxf (57031 bytes)
  ║   Type                                                ║  Plaintext JPEG2000
  ║   Data                                                ║  ff4fff51002f00040000100000000870…8080808080808080808080808080ffd9
  ║   JPEG2000 Header                                     ║  └──────┘ found here
- ║   JPEG2000 Metadata                                   ║  Unable to decode: BoxValidator.__init__() missing 1 required positional argument: 'boxContents'
+ ║   JPEG2000 Metadata (0)                               ║                                   Siz
+ ║   JPEG2000 Metadata (1)                               ║                                  lsiz = 47
+ ║   JPEG2000 Metadata (2)                               ║                                  rsiz = 4
+ ║   JPEG2000 Metadata (3)                               ║                                  xsiz = 4096
+ ║   JPEG2000 Metadata (4)                               ║                                  ysiz = 2160
+ ║   JPEG2000 Metadata (5)                               ║                                 xTsiz = 4096
+ ║   JPEG2000 Metadata (6)                               ║                                 yTsiz = 2160
+ ║   JPEG2000 Metadata (7)                               ║                         numberOfTiles = 1
+ ║   JPEG2000 Metadata (8)                               ║                                  csiz = 3
+ ║   JPEG2000 Metadata (9)                               ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (10)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (11)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (12)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (13)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (14)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (15)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (16)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (17)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (18)                              ║                                   Cod
+ ║   JPEG2000 Metadata (19)                              ║                                  lcod = 19
+ ║   JPEG2000 Metadata (20)                              ║                             precincts = 1
+ ║   JPEG2000 Metadata (21)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (22)                              ║                                layers = 1
+ ║   JPEG2000 Metadata (23)                              ║       multipleComponentTransformation = 1
+ ║   JPEG2000 Metadata (24)                              ║                                levels = 6
+ ║   JPEG2000 Metadata (25)                              ║                        codeBlockWidth = 32
+ ║   JPEG2000 Metadata (26)                              ║                       codeBlockHeight = 32
+ ║   JPEG2000 Metadata (27)                              ║                         precinctSizeX = 128
+ ║   JPEG2000 Metadata (28)                              ║                         precinctSizeY = 128
+ ║   JPEG2000 Metadata (29)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (30)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (31)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (32)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (33)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (34)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (35)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (36)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (37)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (38)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (39)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (40)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (41)                              ║                                   Qcd
+ ║   JPEG2000 Metadata (42)                              ║                                  lqcd = 41
+ ║   JPEG2000 Metadata (43)                              ║                                qStyle = 2
+ ║   JPEG2000 Metadata (44)                              ║                             guardBits = 2
+ ║   JPEG2000 Metadata (45)                              ║                                    mu = 1844
+ ║   JPEG2000 Metadata (46)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (47)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (48)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (49)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (50)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (51)                              ║                                    mu = 1710
+ ║   JPEG2000 Metadata (52)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (53)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (54)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (55)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (56)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (57)                              ║                                   Poc
+ ║   JPEG2000 Metadata (58)                              ║                                  lpoc = 16
+ ║   JPEG2000 Metadata (59)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (60)                              ║                                 repoc = 6
+ ║   JPEG2000 Metadata (61)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (62)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (63)                              ║                                 rspoc = 6
+ ║   JPEG2000 Metadata (64)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (65)                              ║                                 repoc = 7
+ ║   JPEG2000 Metadata (66)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (67)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (68)                              ║                                   Tlm
+ ║   JPEG2000 Metadata (69)                              ║                                   Com
+ ║   JPEG2000 Metadata (70)                              ║                                  lcom = 40
+ ║   JPEG2000 Metadata (71)                              ║                                  rcom = 1
+ ║   JPEG2000 Metadata (72)                              ║                             Tileparts
+ ║   JPEG2000 Metadata (73)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (74)                              ║                                   Sot
+ ║   JPEG2000 Metadata (75)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (76)                              ║                                  psot = 17377
+ ║   JPEG2000 Metadata (77)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (78)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (79)                              ║                                   Sot
+ ║   JPEG2000 Metadata (80)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (81)                              ║                                  psot = 5289
+ ║   JPEG2000 Metadata (82)                              ║                                 tpsot = 1
+ ║   JPEG2000 Metadata (83)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (84)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (85)                              ║                                   Sot
+ ║   JPEG2000 Metadata (86)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (87)                              ║                                  psot = 3247
+ ║   JPEG2000 Metadata (88)                              ║                                 tpsot = 2
+ ║   JPEG2000 Metadata (89)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (90)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (91)                              ║                                   Sot
+ ║   JPEG2000 Metadata (92)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (93)                              ║                                  psot = 11980
+ ║   JPEG2000 Metadata (94)                              ║                                 tpsot = 3
+ ║   JPEG2000 Metadata (95)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (96)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (97)                              ║                                   Sot
+ ║   JPEG2000 Metadata (98)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (99)                              ║                                  psot = 1593
+ ║   JPEG2000 Metadata (100)                             ║                                 tpsot = 4
+ ║   JPEG2000 Metadata (101)                             ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (102)                             ║                              Tilepart
+ ║   JPEG2000 Metadata (103)                             ║                                   Sot
+ ║   JPEG2000 Metadata (104)                             ║                                  lsot = 10
+ ║   JPEG2000 Metadata (105)                             ║                                  psot = 437
+ ║   JPEG2000 Metadata (106)                             ║                                 tpsot = 5
+ ║   JPEG2000 Metadata (107)                             ║                                 tnsot = 6
  ║   Resource [1]                                        ║  SMPTE.ST.0422-2014 - MXF - Mapping JPEG2000 Codestreams into the MXF Generic Container
  ║   Resource [2]                                        ║  SMPTE.ST.0429-4-2006 - DCP - MXF JPEG2000 Application
  ║   Resource [3]                                        ║  SMPTE.ST.0384M-2005 - TV - MXF - Mapping of Uncompressed Pictures into the Generic Container
@@ -869,11 +1083,118 @@ $ python -m mxf_reader -f tests/assets/encrypted-key-000000000000000000000000000
  ║   Sequence Number                                     ║  1
  ║   Message Integrity Code (MIC) Length                 ║  20
  ║   Message Integrity Code (MIC)                        ║  5b594d66d09cf6ddfda8f6e691e4291ea7097bc8
- ║
+ ║                                                       
  ║   Crypto: Check Value Plaintext                       ║  GOOD KEY :) (4348554b4348554b4348554b4348554b)
  ║   Crypto: Frame Plaintext                             ║  JPEG2000 header found
- ║
- ║   JPEG2000 Metadata                                   ║  (....)
+ ║                                                       
+ ║   JPEG2000 Metadata (0)                               ║                                   Siz
+ ║   JPEG2000 Metadata (1)                               ║                                  lsiz = 47
+ ║   JPEG2000 Metadata (2)                               ║                                  rsiz = 4
+ ║   JPEG2000 Metadata (3)                               ║                                  xsiz = 4096
+ ║   JPEG2000 Metadata (4)                               ║                                  ysiz = 2160
+ ║   JPEG2000 Metadata (5)                               ║                                 xTsiz = 4096
+ ║   JPEG2000 Metadata (6)                               ║                                 yTsiz = 2160
+ ║   JPEG2000 Metadata (7)                               ║                         numberOfTiles = 1
+ ║   JPEG2000 Metadata (8)                               ║                                  csiz = 3
+ ║   JPEG2000 Metadata (9)                               ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (10)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (11)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (12)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (13)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (14)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (15)                              ║                             ssizDepth = 12
+ ║   JPEG2000 Metadata (16)                              ║                                 xRsiz = 1
+ ║   JPEG2000 Metadata (17)                              ║                                 yRsiz = 1
+ ║   JPEG2000 Metadata (18)                              ║                                   Cod
+ ║   JPEG2000 Metadata (19)                              ║                                  lcod = 19
+ ║   JPEG2000 Metadata (20)                              ║                             precincts = 1
+ ║   JPEG2000 Metadata (21)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (22)                              ║                                layers = 1
+ ║   JPEG2000 Metadata (23)                              ║       multipleComponentTransformation = 1
+ ║   JPEG2000 Metadata (24)                              ║                                levels = 6
+ ║   JPEG2000 Metadata (25)                              ║                        codeBlockWidth = 32
+ ║   JPEG2000 Metadata (26)                              ║                       codeBlockHeight = 32
+ ║   JPEG2000 Metadata (27)                              ║                         precinctSizeX = 128
+ ║   JPEG2000 Metadata (28)                              ║                         precinctSizeY = 128
+ ║   JPEG2000 Metadata (29)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (30)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (31)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (32)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (33)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (34)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (35)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (36)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (37)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (38)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (39)                              ║                         precinctSizeX = 256
+ ║   JPEG2000 Metadata (40)                              ║                         precinctSizeY = 256
+ ║   JPEG2000 Metadata (41)                              ║                                   Qcd
+ ║   JPEG2000 Metadata (42)                              ║                                  lqcd = 41
+ ║   JPEG2000 Metadata (43)                              ║                                qStyle = 2
+ ║   JPEG2000 Metadata (44)                              ║                             guardBits = 2
+ ║   JPEG2000 Metadata (45)                              ║                                    mu = 1844
+ ║   JPEG2000 Metadata (46)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (47)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (48)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (49)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (50)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (51)                              ║                                    mu = 1710
+ ║   JPEG2000 Metadata (52)                              ║                               epsilon = 15
+ ║   JPEG2000 Metadata (53)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (54)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (55)                              ║                                    mu = 1777
+ ║   JPEG2000 Metadata (56)                              ║                               epsilon = 14
+ ║   JPEG2000 Metadata (57)                              ║                                   Poc
+ ║   JPEG2000 Metadata (58)                              ║                                  lpoc = 16
+ ║   JPEG2000 Metadata (59)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (60)                              ║                                 repoc = 6
+ ║   JPEG2000 Metadata (61)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (62)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (63)                              ║                                 rspoc = 6
+ ║   JPEG2000 Metadata (64)                              ║                                lyepoc = 1
+ ║   JPEG2000 Metadata (65)                              ║                                 repoc = 7
+ ║   JPEG2000 Metadata (66)                              ║                                 cepoc = 3
+ ║   JPEG2000 Metadata (67)                              ║                                 order = 4
+ ║   JPEG2000 Metadata (68)                              ║                                   Tlm
+ ║   JPEG2000 Metadata (69)                              ║                                   Com
+ ║   JPEG2000 Metadata (70)                              ║                                  lcom = 40
+ ║   JPEG2000 Metadata (71)                              ║                                  rcom = 1
+ ║   JPEG2000 Metadata (72)                              ║                             Tileparts
+ ║   JPEG2000 Metadata (73)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (74)                              ║                                   Sot
+ ║   JPEG2000 Metadata (75)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (76)                              ║                                  psot = 17377
+ ║   JPEG2000 Metadata (77)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (78)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (79)                              ║                                   Sot
+ ║   JPEG2000 Metadata (80)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (81)                              ║                                  psot = 5289
+ ║   JPEG2000 Metadata (82)                              ║                                 tpsot = 1
+ ║   JPEG2000 Metadata (83)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (84)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (85)                              ║                                   Sot
+ ║   JPEG2000 Metadata (86)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (87)                              ║                                  psot = 3247
+ ║   JPEG2000 Metadata (88)                              ║                                 tpsot = 2
+ ║   JPEG2000 Metadata (89)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (90)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (91)                              ║                                   Sot
+ ║   JPEG2000 Metadata (92)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (93)                              ║                                  psot = 11980
+ ║   JPEG2000 Metadata (94)                              ║                                 tpsot = 3
+ ║   JPEG2000 Metadata (95)                              ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (96)                              ║                              Tilepart
+ ║   JPEG2000 Metadata (97)                              ║                                   Sot
+ ║   JPEG2000 Metadata (98)                              ║                                  lsot = 10
+ ║   JPEG2000 Metadata (99)                              ║                                  psot = 1593
+ ║   JPEG2000 Metadata (100)                             ║                                 tpsot = 4
+ ║   JPEG2000 Metadata (101)                             ║                                 tnsot = 6
+ ║   JPEG2000 Metadata (102)                             ║                              Tilepart
+ ║   JPEG2000 Metadata (103)                             ║                                   Sot
+ ║   JPEG2000 Metadata (104)                             ║                                  lsot = 10
+ ║   JPEG2000 Metadata (105)                             ║                                  psot = 437
+ ║   JPEG2000 Metadata (106)                             ║                                 tpsot = 5
+ ║   JPEG2000 Metadata (107)                             ║                                 tnsot = 6
  ║   Resource [1]                                        ║  SMPTE.ST.0429-6-2006 - DCP - MXF Track File Essence Encryption
  ║   Resource [2]                                        ║  Page 10
  ║   Parser                                              ║  essence_encrypted
@@ -882,4 +1203,5 @@ $ python -m mxf_reader -f tests/assets/encrypted-key-000000000000000000000000000
 
 KLV has been decrypted and JPEG2000 has been found in data.
 
+Then, use `--extract` to extract decrypted content. 
 

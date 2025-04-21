@@ -71,14 +71,14 @@ wheels = [
 
 [[package]]
 name = "jpylyzer"
-version = "2.2.1"
+version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "setuptools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f5/e8/374f6984f2a8a39ef4b1045b3ff4fa86ec6b9201c6d668a96d2b81b78640/jpylyzer-2.2.1.tar.gz", hash = "sha256:834ac425946c79878805343c461cba346f3b2d97a910653a1f9e153d9a8243e6", size = 2257564 }
+sdist = { url = "https://files.pythonhosted.org/packages/23/19/4a11d34ec9c2581ad6ab7076d3c79e309e9ee128e96c4783ace0367d58a0/jpylyzer-2.1.0.tar.gz", hash = "sha256:32fe955d8a2182c4e717045e80688de9ed0f60c6aba69bb65dfc87b525b17515", size = 2280121 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/82/cd/28de72ca166be24a1bb5695d45f7ebf40f3d00a60bdc9602a31fccf722c3/jpylyzer-2.2.1-py2.py3-none-any.whl", hash = "sha256:f026a857d99f40c0618d1f779504edb805fdb97b128a7d2eeac09a4bca0abada", size = 52783 },
+    { url = "https://files.pythonhosted.org/packages/6a/ca/a18c5911314bd2617c532c91e9255c95ebf52ce7efe71b6673346e35606f/jpylyzer-2.1.0-py2.py3-none-any.whl", hash = "sha256:d8bf629d5071afd59664a8878fa52b684a2657034e47bcc8c729789aea41ab85", size = 95428 },
 ]
 
 [[package]]
@@ -136,7 +136,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "cryptography" },
-    { name = "jpylyzer" },
+    { name = "jpylyzer", specifier = "==2.1.0" },
     { name = "lxml" },
 ]
 
