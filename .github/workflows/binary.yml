@@ -17,6 +17,7 @@ jobs:
 
     - name: "Binary (via nuitka)"
       run: |
+        pip install .
         pip install nuitka
         make bin
 
