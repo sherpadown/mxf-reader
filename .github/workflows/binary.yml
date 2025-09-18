@@ -21,7 +21,10 @@ jobs:
         make bin
 
     - name: "Run & tests"
-      run: ./mxf-reader
+      run: |
+        file ./mxf-reader
+        ldd ./mxf-reader
+        ./mxf-reader -f tests/assets/2D.mxf
 
     - name: 'Upload artifact'
       uses: actions/upload-artifact@v4
