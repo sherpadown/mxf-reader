@@ -31,6 +31,3 @@ jobs:
       run: |
         docker tag mxf-reader:latest ghcr.io/sherpadown/mxf-reader:latest
         docker push ghcr.io/sherpadown/mxf-reader:latest
-
-    - name: "Binary (via nuitka)"
-      run: pip install nuitka && make bin
